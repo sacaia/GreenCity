@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace ProjetoPraticaII
 {
-    public partial class frmCadastro : Form
+    public partial class frmLogin : Form
     {
-        public frmCadastro()
+        public frmLogin()
         {
             InitializeComponent();
+        }
+
+        private void llbCadastro_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void btnLogar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

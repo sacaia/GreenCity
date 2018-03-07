@@ -7,3 +7,12 @@ Z:\3º Semestre\WS Visual Studio\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\Pro
 Z:\3º Semestre\WS Visual Studio\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.csproj.CoreCompileInputs.cache
 Z:\3º Semestre\WS Visual Studio\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.exe
 Z:\3º Semestre\WS Visual Studio\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.pdb
+C:\Users\u17189\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\bin\Debug\ProjetoPraticaII.exe.config
+C:\Users\u17189\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\bin\Debug\ProjetoPraticaII.exe
+C:\Users\u17189\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\bin\Debug\ProjetoPraticaII.pdb
+C:\Users\u17189\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.frmLogin.resources
+C:\Users\u17189\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.Properties.Resources.resources
+C:\Users\u17189\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.csproj.GenerateResource.Cache
+C:\Users\u17189\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.csproj.CoreCompileInputs.cache
+C:\Users\u17189\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.exe
+C:\Users\u17189\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.pdb
