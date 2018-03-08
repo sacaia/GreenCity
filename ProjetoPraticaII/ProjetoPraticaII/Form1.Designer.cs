@@ -29,34 +29,21 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbNome = new System.Windows.Forms.Label();
             this.lbSenha = new System.Windows.Forms.Label();
             this.txbNome = new System.Windows.Forms.TextBox();
             this.txbSenha = new System.Windows.Forms.TextBox();
             this.btnLogar = new System.Windows.Forms.Button();
             this.llbCadastro = new System.Windows.Forms.LinkLabel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = global::ProjetoPraticaII.Properties.Resources.GreenCityText2;
-            this.pictureBox1.Location = new System.Drawing.Point(41, 41);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(300, 150);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // lbNome
             // 
             this.lbNome.AutoSize = true;
             this.lbNome.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbNome.Location = new System.Drawing.Point(38, 204);
+            this.lbNome.Location = new System.Drawing.Point(38, 200);
             this.lbNome.Name = "lbNome";
             this.lbNome.Size = new System.Drawing.Size(96, 28);
             this.lbNome.TabIndex = 1;
@@ -66,7 +53,7 @@
             // 
             this.lbSenha.AutoSize = true;
             this.lbSenha.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbSenha.Location = new System.Drawing.Point(39, 233);
+            this.lbSenha.Location = new System.Drawing.Point(38, 230);
             this.lbSenha.Name = "lbSenha";
             this.lbSenha.Size = new System.Drawing.Size(65, 28);
             this.lbSenha.TabIndex = 2;
@@ -74,7 +61,7 @@
             // 
             // txbNome
             // 
-            this.txbNome.Location = new System.Drawing.Point(166, 206);
+            this.txbNome.Location = new System.Drawing.Point(166, 205);
             this.txbNome.Name = "txbNome";
             this.txbNome.Size = new System.Drawing.Size(175, 20);
             this.txbNome.TabIndex = 3;
@@ -112,6 +99,19 @@
             this.llbCadastro.TabStop = true;
             this.llbCadastro.Text = "Ainda não possui uma conta?";
             this.llbCadastro.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llbCadastro_LinkClicked);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = global::ProjetoPraticaII.Properties.Resources.GreenCityText2;
+            this.pictureBox1.Location = new System.Drawing.Point(41, 41);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(300, 150);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // frmLogin
             // 
