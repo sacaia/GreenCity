@@ -16,5 +16,21 @@ namespace ProjetoPraticaII
         {
             InitializeComponent();
         }
+
+        private void llbLogin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmLogin frmL = new frmLogin();
+            frmL.Show();
+            this.Hide();
+            //frmLogin frmL = new frmLogin();
+            //this.Hide();
+            //frmL.FormClosed += (s, arg) => this.Show(); N precisa
+            //frmL.Show();
+        }
+
+        private void frmCadastro_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -130,6 +130,7 @@
             this.llbLogin.TabIndex = 13;
             this.llbLogin.TabStop = true;
             this.llbLogin.Text = "Já possui uma conta?";
+            this.llbLogin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llbLogin_LinkClicked);
             // 
             // frmCadastro
             // 
@@ -150,7 +151,9 @@
             this.MaximumSize = new System.Drawing.Size(400, 425);
             this.MinimumSize = new System.Drawing.Size(400, 425);
             this.Name = "frmCadastro";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Green City";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmCadastro_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

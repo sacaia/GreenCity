@@ -19,12 +19,20 @@ namespace ProjetoPraticaII
 
         private void llbCadastro_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            frmCadastro frmC = new frmCadastro();
+            this.Hide();
+            //frmC.FormClosed += (s, arg) => this.Show();
+            frmC.Show();
         }
 
         private void btnLogar_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void frmLogin_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

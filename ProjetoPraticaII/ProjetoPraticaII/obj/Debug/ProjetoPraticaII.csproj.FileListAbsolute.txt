@@ -16,3 +16,5 @@ C:\Users\u17189\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPratica
 C:\Users\u17189\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.csproj.CoreCompileInputs.cache
 C:\Users\u17189\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.exe
 C:\Users\u17189\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.pdb
+C:\Users\u17189\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.csprojResolveAssemblyReference.cache
+C:\Users\u17189\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.frmCadastro.resources
