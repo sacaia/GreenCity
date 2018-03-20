@@ -57,6 +57,7 @@
             // btnCadastro
             // 
             this.btnCadastro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(174)))), ((int)(((byte)(44)))));
+            this.btnCadastro.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCadastro.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastro.Location = new System.Drawing.Point(41, 294);
