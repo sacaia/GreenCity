@@ -6,3 +6,5 @@ nome varchar(50) not null,
 senha varchar(50) not null,
 adm int
 )
+
+select * from usuario

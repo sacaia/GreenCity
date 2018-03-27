@@ -66,6 +66,7 @@
             this.btnCadastro.TabIndex = 10;
             this.btnCadastro.Text = "Criar";
             this.btnCadastro.UseVisualStyleBackColor = false;
+            this.btnCadastro.Click += new System.EventHandler(this.btnCadastro_Click);
             // 
             // txbSenha
             // 
