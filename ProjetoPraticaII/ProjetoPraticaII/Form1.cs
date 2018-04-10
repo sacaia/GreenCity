@@ -42,14 +42,14 @@ namespace ProjetoPraticaII
                 con.ConnectionString = cs;
 
                 // verifica os parametros passados pelo usuario no formulario
-                string cmd_s = "select * from usuario where nome=@nome and senha=@senha)";
+                string cmd_s = "select id from usuario where nome=@nome and senha=@senha";
                 SqlCommand cmd = new SqlCommand(cmd_s, con);
 
                 // @nome = nome escolhido pelo usuario
                 cmd.Parameters.AddWithValue("@nome", txbNome.Text);
 
                 // @senha = senha escolhida pelo usuario
-                cmd.Parameters.AddWithValue("@senha", txbSenha.Text);
+                cmd.Parameters.AddWithValue("@senha", Encriptador.Encrypt(txbSenha.Text));
 
                 con.Open();
 
@@ -62,6 +62,7 @@ namespace ProjetoPraticaII
                 if (ds.Tables[0].Rows.Count == 1)
                 {
                     // existe o usuario com essa senha
+                    MessageBox.Show("foi o/");
                 }
 
             }
@@ -78,6 +79,17 @@ namespace ProjetoPraticaII
         private void frmLogin_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void txbSenha_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnLogar.PerformClick();
+                // these last two lines will stop the beep sound
+                e.SuppressKeyPress = true;
+                e.Handled = true;
+            }
         }
     }
 }

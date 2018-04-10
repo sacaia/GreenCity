@@ -73,6 +73,7 @@
             this.txbSenha.Size = new System.Drawing.Size(175, 20);
             this.txbSenha.TabIndex = 4;
             this.txbSenha.UseSystemPasswordChar = true;
+            this.txbSenha.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txbSenha_KeyDown);
             // 
             // btnLogar
             // 
