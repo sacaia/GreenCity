@@ -7,4 +7,6 @@ senha varchar(50) not null,
 adm int
 )
 
+delete from usuario where id = 0
+
 select * from usuario

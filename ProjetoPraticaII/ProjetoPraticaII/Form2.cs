@@ -56,14 +56,14 @@ namespace ProjetoPraticaII
                 con.ConnectionString = cs;
 
                 // Insere os valores passados pelo usuario no formulario
-                string cmd_s = "insert into alunoSergio values(@nome, @senha, 0)";
+                string cmd_s = "insert into usuario values(@nome, @senha, 0)";
                 SqlCommand cmd = new SqlCommand(cmd_s, con);
 
                 // @nome = nome escolhido pelo usuario
                 cmd.Parameters.AddWithValue("@nome", txbNome.Text);
 
                 // @senha = senha escolhida pelo usuario
-                cmd.Parameters.AddWithValue("@senha", txbSenha.Text);
+                cmd.Parameters.AddWithValue("@senha", Encriptador.Encrypt(txbSenha.Text));
 
                 con.Open();
 
@@ -75,6 +75,9 @@ namespace ProjetoPraticaII
 
                 // Se chegar ate aqui sem nenhum problema, da um feedback pro usuario
                 MessageBox.Show("Registrado com susseso");
+                frmLogin frmL = new frmLogin();
+                frmL.Show();
+                this.Hide();
 
             }
             catch (Exception ex)
@@ -86,6 +89,17 @@ namespace ProjetoPraticaII
             txbNome.Text = "";
             txbSenha.Text = "";
             txbConfirmarSenha.Text = "";
+        }
+
+        private void txbConfirmarSenha_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnCadastro.PerformClick();
+                // these last two lines will stop the beep sound
+                e.SuppressKeyPress = true;
+                e.Handled = true;
+            }
         }
     }
 }

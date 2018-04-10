@@ -73,7 +73,7 @@
             this.txbSenha.Location = new System.Drawing.Point(188, 235);
             this.txbSenha.Name = "txbSenha";
             this.txbSenha.Size = new System.Drawing.Size(153, 20);
-            this.txbSenha.TabIndex = 9;
+            this.txbSenha.TabIndex = 2;
             this.txbSenha.UseSystemPasswordChar = true;
             // 
             // txbNome
@@ -81,7 +81,7 @@
             this.txbNome.Location = new System.Drawing.Point(188, 205);
             this.txbNome.Name = "txbNome";
             this.txbNome.Size = new System.Drawing.Size(153, 20);
-            this.txbNome.TabIndex = 8;
+            this.txbNome.TabIndex = 1;
             // 
             // lbSenha
             // 
@@ -118,8 +118,9 @@
             this.txbConfirmarSenha.Location = new System.Drawing.Point(188, 265);
             this.txbConfirmarSenha.Name = "txbConfirmarSenha";
             this.txbConfirmarSenha.Size = new System.Drawing.Size(153, 20);
-            this.txbConfirmarSenha.TabIndex = 12;
+            this.txbConfirmarSenha.TabIndex = 3;
             this.txbConfirmarSenha.UseSystemPasswordChar = true;
+            this.txbConfirmarSenha.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txbConfirmarSenha_KeyDown);
             // 
             // llbLogin
             // 
