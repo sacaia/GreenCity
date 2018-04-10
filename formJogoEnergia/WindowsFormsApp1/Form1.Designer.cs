@@ -32,6 +32,8 @@
             this.pb_jogador = new System.Windows.Forms.PictureBox();
             this.Level = new System.Windows.Forms.Timer(this.components);
             this.lb_level = new System.Windows.Forms.Label();
+            this.Gravidade = new System.Windows.Forms.Timer(this.components);
+            this.lb_pontuacao = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pb_jogador)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,6 +50,7 @@
             // Level
             // 
             this.Level.Interval = 10000;
+            this.Level.Tick += new System.EventHandler(this.Level_Tick);
             // 
             // lb_level
             // 
@@ -59,11 +62,26 @@
             this.lb_level.TabIndex = 1;
             this.lb_level.Text = "Nivel: 1";
             // 
+            // Gravidade
+            // 
+            this.Gravidade.Tick += new System.EventHandler(this.Gravidade_Tick);
+            // 
+            // lb_pontuacao
+            // 
+            this.lb_pontuacao.AutoSize = true;
+            this.lb_pontuacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_pontuacao.Location = new System.Drawing.Point(836, 74);
+            this.lb_pontuacao.Name = "lb_pontuacao";
+            this.lb_pontuacao.Size = new System.Drawing.Size(71, 13);
+            this.lb_pontuacao.TabIndex = 2;
+            this.lb_pontuacao.Text = "Pontuação: 0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(934, 592);
+            this.Controls.Add(this.lb_pontuacao);
             this.Controls.Add(this.lb_level);
             this.Controls.Add(this.pb_jogador);
             this.MaximumSize = new System.Drawing.Size(950, 630);
@@ -82,6 +100,8 @@
         private System.Windows.Forms.PictureBox pb_jogador;
         private System.Windows.Forms.Timer Level;
         private System.Windows.Forms.Label lb_level;
+        private System.Windows.Forms.Timer Gravidade;
+        private System.Windows.Forms.Label lb_pontuacao;
     }
 }
 
