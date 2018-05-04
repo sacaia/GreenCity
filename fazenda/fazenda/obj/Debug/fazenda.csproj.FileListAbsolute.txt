@@ -1,0 +1,42 @@
+c:\users\u17176\source\repos\fazenda\fazenda\bin\Debug\fazenda.exe.config
+c:\users\u17176\source\repos\fazenda\fazenda\bin\Debug\fazenda.exe
+c:\users\u17176\source\repos\fazenda\fazenda\bin\Debug\fazenda.pdb
+c:\users\u17176\source\repos\fazenda\fazenda\obj\Debug\fazenda.csprojResolveAssemblyReference.cache
+c:\users\u17176\source\repos\fazenda\fazenda\obj\Debug\fazenda.Form1.resources
+c:\users\u17176\source\repos\fazenda\fazenda\obj\Debug\fazenda.Properties.Resources.resources
+c:\users\u17176\source\repos\fazenda\fazenda\obj\Debug\fazenda.csproj.GenerateResource.Cache
+c:\users\u17176\source\repos\fazenda\fazenda\obj\Debug\fazenda.csproj.CoreCompileInputs.cache
+c:\users\u17176\source\repos\fazenda\fazenda\obj\Debug\fazenda.exe
+c:\users\u17176\source\repos\fazenda\fazenda\obj\Debug\fazenda.pdb
+E:\fazenda\fazenda\bin\Debug\fazenda.exe.config
+E:\fazenda\fazenda\bin\Debug\fazenda.exe
+E:\fazenda\fazenda\bin\Debug\fazenda.pdb
+E:\fazenda\fazenda\obj\Debug\fazenda.csprojResolveAssemblyReference.cache
+E:\fazenda\fazenda\obj\Debug\fazenda.Form1.resources
+E:\fazenda\fazenda\obj\Debug\fazenda.Properties.Resources.resources
+E:\fazenda\fazenda\obj\Debug\fazenda.csproj.GenerateResource.Cache
+E:\fazenda\fazenda\obj\Debug\fazenda.csproj.CoreCompileInputs.cache
+E:\fazenda\fazenda\obj\Debug\fazenda.exe
+E:\fazenda\fazenda\obj\Debug\fazenda.pdb
+F:\fazenda\fazenda\bin\Debug\fazenda.exe.config
+F:\fazenda\fazenda\bin\Debug\fazenda.exe
+F:\fazenda\fazenda\bin\Debug\fazenda.pdb
+F:\fazenda\fazenda\obj\Debug\fazenda.csprojResolveAssemblyReference.cache
+F:\fazenda\fazenda\obj\Debug\fazenda.Form1.resources
+F:\fazenda\fazenda\obj\Debug\fazenda.Form2.resources
+F:\fazenda\fazenda\obj\Debug\fazenda.Properties.Resources.resources
+F:\fazenda\fazenda\obj\Debug\fazenda.csproj.GenerateResource.Cache
+F:\fazenda\fazenda\obj\Debug\fazenda.csproj.CoreCompileInputs.cache
+F:\fazenda\fazenda\obj\Debug\fazenda.exe
+F:\fazenda\fazenda\obj\Debug\fazenda.pdb
+F:\Cotuca\Tecnico\3 Semestre\Prática Profissional 2\fazenda\fazenda\bin\Debug\fazenda.exe.config
+F:\Cotuca\Tecnico\3 Semestre\Prática Profissional 2\fazenda\fazenda\bin\Debug\fazenda.exe
+F:\Cotuca\Tecnico\3 Semestre\Prática Profissional 2\fazenda\fazenda\bin\Debug\fazenda.pdb
+F:\Cotuca\Tecnico\3 Semestre\Prática Profissional 2\fazenda\fazenda\obj\Debug\fazenda.csprojResolveAssemblyReference.cache
+F:\Cotuca\Tecnico\3 Semestre\Prática Profissional 2\fazenda\fazenda\obj\Debug\fazenda.Form1.resources
+F:\Cotuca\Tecnico\3 Semestre\Prática Profissional 2\fazenda\fazenda\obj\Debug\fazenda.Form2.resources
+F:\Cotuca\Tecnico\3 Semestre\Prática Profissional 2\fazenda\fazenda\obj\Debug\fazenda.Properties.Resources.resources
+F:\Cotuca\Tecnico\3 Semestre\Prática Profissional 2\fazenda\fazenda\obj\Debug\fazenda.csproj.GenerateResource.Cache
+F:\Cotuca\Tecnico\3 Semestre\Prática Profissional 2\fazenda\fazenda\obj\Debug\fazenda.csproj.CoreCompileInputs.cache
+F:\Cotuca\Tecnico\3 Semestre\Prática Profissional 2\fazenda\fazenda\obj\Debug\fazenda.exe
+F:\Cotuca\Tecnico\3 Semestre\Prática Profissional 2\fazenda\fazenda\obj\Debug\fazenda.pdb
