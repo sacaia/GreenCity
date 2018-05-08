@@ -41,6 +41,7 @@
             this.plantacresce = new System.Windows.Forms.Timer(this.components);
             this.lb_sementeescolhida = new System.Windows.Forms.Label();
             this.pb_adubo = new System.Windows.Forms.PictureBox();
+            this.btn_silo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -158,11 +159,21 @@
             this.pb_adubo.TabStop = false;
             this.pb_adubo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pb_adubo_MouseDown);
             // 
+            // btn_silo
+            // 
+            this.btn_silo.Location = new System.Drawing.Point(698, 554);
+            this.btn_silo.Name = "btn_silo";
+            this.btn_silo.Size = new System.Drawing.Size(75, 23);
+            this.btn_silo.TabIndex = 7;
+            this.btn_silo.Text = "Silo";
+            this.btn_silo.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(821, 589);
+            this.Controls.Add(this.btn_silo);
             this.Controls.Add(this.pb_adubo);
             this.Controls.Add(this.lb_sementeescolhida);
             this.Controls.Add(this.btn_mudarsemente);
@@ -196,6 +207,7 @@
         private System.Windows.Forms.Timer plantacresce;
         private System.Windows.Forms.Label lb_sementeescolhida;
         private System.Windows.Forms.PictureBox pb_adubo;
+        private System.Windows.Forms.Button btn_silo;
     }
 }
 
