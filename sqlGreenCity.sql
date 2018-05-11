@@ -10,3 +10,17 @@ adm int
 delete from usuario where id = 0
 
 select * from usuario
+
+
+create table mercado(
+milho int not null 
+
+
+
+
+)
+
+create rule
+(
+
+)
