@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.lb_silo = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lb_qtdcapim = new System.Windows.Forms.Label();
+            this.lb_qtdcafe = new System.Windows.Forms.Label();
+            this.lb_qtdmilho = new System.Windows.Forms.Label();
+            this.lb_qtdtrigo = new System.Windows.Forms.Label();
+            this.btn_mercado = new System.Windows.Forms.Button();
+            this.btn_voltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lb_silo
@@ -47,71 +47,75 @@
             this.lb_silo.TabIndex = 0;
             this.lb_silo.Text = "Silo";
             // 
-            // label2
+            // lb_qtdcapim
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(200, 168);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.lb_qtdcapim.AutoSize = true;
+            this.lb_qtdcapim.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_qtdcapim.Location = new System.Drawing.Point(87, 84);
+            this.lb_qtdcapim.Name = "lb_qtdcapim";
+            this.lb_qtdcapim.Size = new System.Drawing.Size(66, 17);
+            this.lb_qtdcapim.TabIndex = 1;
+            this.lb_qtdcapim.Text = "Capim : 0";
             // 
-            // label3
+            // lb_qtdcafe
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(208, 176);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.lb_qtdcafe.AutoSize = true;
+            this.lb_qtdcafe.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_qtdcafe.Location = new System.Drawing.Point(87, 112);
+            this.lb_qtdcafe.Name = "lb_qtdcafe";
+            this.lb_qtdcafe.Size = new System.Drawing.Size(55, 17);
+            this.lb_qtdcafe.TabIndex = 2;
+            this.lb_qtdcafe.Text = "Café : 0";
             // 
-            // label4
+            // lb_qtdmilho
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(216, 184);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "label4";
+            this.lb_qtdmilho.AutoSize = true;
+            this.lb_qtdmilho.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_qtdmilho.Location = new System.Drawing.Point(87, 139);
+            this.lb_qtdmilho.Name = "lb_qtdmilho";
+            this.lb_qtdmilho.Size = new System.Drawing.Size(58, 17);
+            this.lb_qtdmilho.TabIndex = 3;
+            this.lb_qtdmilho.Text = "Milho: 0";
             // 
-            // label5
+            // lb_qtdtrigo
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(224, 192);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "label5";
+            this.lb_qtdtrigo.AutoSize = true;
+            this.lb_qtdtrigo.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_qtdtrigo.Location = new System.Drawing.Point(87, 168);
+            this.lb_qtdtrigo.Name = "lb_qtdtrigo";
+            this.lb_qtdtrigo.Size = new System.Drawing.Size(58, 17);
+            this.lb_qtdtrigo.TabIndex = 4;
+            this.lb_qtdtrigo.Text = "Trigo : 0";
             // 
-            // label6
+            // btn_mercado
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(232, 200);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "label6";
+            this.btn_mercado.Location = new System.Drawing.Point(348, 280);
+            this.btn_mercado.Name = "btn_mercado";
+            this.btn_mercado.Size = new System.Drawing.Size(75, 23);
+            this.btn_mercado.TabIndex = 5;
+            this.btn_mercado.Text = "Mercado";
+            this.btn_mercado.UseVisualStyleBackColor = true;
             // 
-            // label7
+            // btn_voltar
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(240, 208);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 13);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "label7";
+            this.btn_voltar.Location = new System.Drawing.Point(29, 280);
+            this.btn_voltar.Name = "btn_voltar";
+            this.btn_voltar.Size = new System.Drawing.Size(75, 23);
+            this.btn_voltar.TabIndex = 6;
+            this.btn_voltar.Text = "Voltar";
+            this.btn_voltar.UseVisualStyleBackColor = true;
             // 
             // Silo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(435, 348);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btn_voltar);
+            this.Controls.Add(this.btn_mercado);
+            this.Controls.Add(this.lb_qtdtrigo);
+            this.Controls.Add(this.lb_qtdmilho);
+            this.Controls.Add(this.lb_qtdcafe);
+            this.Controls.Add(this.lb_qtdcapim);
             this.Controls.Add(this.lb_silo);
             this.Name = "Silo";
             this.Text = "Silo";
@@ -123,11 +127,11 @@
         #endregion
 
         private System.Windows.Forms.Label lb_silo;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lb_qtdcapim;
+        private System.Windows.Forms.Label lb_qtdcafe;
+        private System.Windows.Forms.Label lb_qtdmilho;
+        private System.Windows.Forms.Label lb_qtdtrigo;
+        private System.Windows.Forms.Button btn_mercado;
+        private System.Windows.Forms.Button btn_voltar;
     }
 }
