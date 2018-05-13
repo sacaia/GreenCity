@@ -167,6 +167,7 @@
             this.btn_silo.TabIndex = 7;
             this.btn_silo.Text = "Silo";
             this.btn_silo.UseVisualStyleBackColor = true;
+            this.btn_silo.Click += new System.EventHandler(this.btn_silo_Click);
             // 
             // Form1
             // 

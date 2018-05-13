@@ -40,3 +40,16 @@ F:\Cotuca\Tecnico\3 Semestre\Prática Profissional 2\fazenda\fazenda\obj\Debug\f
 F:\Cotuca\Tecnico\3 Semestre\Prática Profissional 2\fazenda\fazenda\obj\Debug\fazenda.csproj.CoreCompileInputs.cache
 F:\Cotuca\Tecnico\3 Semestre\Prática Profissional 2\fazenda\fazenda\obj\Debug\fazenda.exe
 F:\Cotuca\Tecnico\3 Semestre\Prática Profissional 2\fazenda\fazenda\obj\Debug\fazenda.pdb
+C:\Users\felip\OneDrive\Documentos\GitHub\projetoPratica2\fazenda\fazenda\bin\Debug\fazenda.exe.config
+C:\Users\felip\OneDrive\Documentos\GitHub\projetoPratica2\fazenda\fazenda\bin\Debug\fazenda.exe
+C:\Users\felip\OneDrive\Documentos\GitHub\projetoPratica2\fazenda\fazenda\bin\Debug\fazenda.pdb
+C:\Users\felip\OneDrive\Documentos\GitHub\projetoPratica2\fazenda\fazenda\obj\Debug\fazenda.csprojAssemblyReference.cache
+C:\Users\felip\OneDrive\Documentos\GitHub\projetoPratica2\fazenda\fazenda\obj\Debug\fazenda.Form1.resources
+C:\Users\felip\OneDrive\Documentos\GitHub\projetoPratica2\fazenda\fazenda\obj\Debug\fazenda.Form2.resources
+C:\Users\felip\OneDrive\Documentos\GitHub\projetoPratica2\fazenda\fazenda\obj\Debug\fazenda.Properties.Resources.resources
+C:\Users\felip\OneDrive\Documentos\GitHub\projetoPratica2\fazenda\fazenda\obj\Debug\fazenda.Silo.resources
+C:\Users\felip\OneDrive\Documentos\GitHub\projetoPratica2\fazenda\fazenda\obj\Debug\fazenda.csproj.GenerateResource.cache
+C:\Users\felip\OneDrive\Documentos\GitHub\projetoPratica2\fazenda\fazenda\obj\Debug\fazenda.csproj.CoreCompileInputs.cache
+C:\Users\felip\OneDrive\Documentos\GitHub\projetoPratica2\fazenda\fazenda\obj\Debug\fazenda.exe
+C:\Users\felip\OneDrive\Documentos\GitHub\projetoPratica2\fazenda\fazenda\obj\Debug\fazenda.pdb
+C:\Users\felip\OneDrive\Documentos\GitHub\projetoPratica2\fazenda\fazenda\obj\Debug\fazenda.MenuFazenda.resources

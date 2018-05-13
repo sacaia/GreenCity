@@ -132,6 +132,7 @@ namespace fazenda
         {
             Form2 semente = new Form2(this);
             semente.Show();
+            this.Hide();
         }
 
       public void escolhaSemente(String semente)
@@ -189,6 +190,10 @@ namespace fazenda
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+            //0=capim
+            //1=cafe
+            //2=milho
+            //3=trigo
             MessageBox.Show(hint_plantacao.GetToolTip(pictureBox1));
             if (colheita == true)
             {
@@ -224,6 +229,11 @@ namespace fazenda
                 }
 
             }
+        }
+
+        private void btn_silo_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

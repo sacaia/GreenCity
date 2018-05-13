@@ -26,6 +26,7 @@ namespace fazenda
         private void btn_trigo_Click(object sender, EventArgs e)
         {
             frm1.escolhaSemente((sender as Button).Name.Split('_')[1]);
+            frm1.Show();
             this.Close();
 
         }
