@@ -48,7 +48,6 @@
             this.pb_celeiro.TabIndex = 0;
             this.pb_celeiro.TabStop = false;
             this.pb_celeiro.MouseEnter += new System.EventHandler(this.pb_celeiro_MouseEnter);
-            this.pb_celeiro.MouseLeave += new System.EventHandler(this.pb_celeiro_MouseLeave);
             // 
             // pb_silo
             // 

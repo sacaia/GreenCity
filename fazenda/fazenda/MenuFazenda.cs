@@ -17,16 +17,23 @@ namespace fazenda
             InitializeComponent();
         }
 
-        private void pb_celeiro_MouseEnter(object sender, EventArgs e)
+        private void pb_MouseEnter(PictureBox imagem)
         {
-            pb_celeiro.Size = new Size( ((pb_celeiro.Size.Width) + (pb_celeiro.Size.Width / 10)),((pb_celeiro.Size.Height) + (pb_celeiro.Size.Height / 10)));
+            imagem.Size = new Size( ((pb_celeiro.Size.Width) + (pb_celeiro.Size.Width / 10)),((pb_celeiro.Size.Height) + (pb_celeiro.Size.Height / 10)));
 
 
         }
 
-        private void pb_celeiro_MouseLeave(object sender, EventArgs e)
+        private void pb_MouseLeave(PictureBox imagem)
         {
-            pb_celeiro.Size = new Size( ((pb_celeiro.Size.Width * 10) / 11),((pb_celeiro.Size.Height * 10) / 11));
+            imagem.Size = new Size( ((pb_celeiro.Size.Width * 10) / 11),((pb_celeiro.Size.Height * 10) / 11));
+        }
+
+        
+
+        private void pb_celeiro_MouseEnter(object sender, EventArgs e,PictureBox imagem)
+        {
+            imagem.Size = new Size(((pb_celeiro.Size.Width) + (pb_celeiro.Size.Width / 10)), ((pb_celeiro.Size.Height) + (pb_celeiro.Size.Height / 10)));
         }
     }
 }
