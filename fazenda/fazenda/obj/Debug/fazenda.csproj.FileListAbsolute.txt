@@ -53,3 +53,16 @@ C:\Users\felip\OneDrive\Documentos\GitHub\projetoPratica2\fazenda\fazenda\obj\De
 C:\Users\felip\OneDrive\Documentos\GitHub\projetoPratica2\fazenda\fazenda\obj\Debug\fazenda.exe
 C:\Users\felip\OneDrive\Documentos\GitHub\projetoPratica2\fazenda\fazenda\obj\Debug\fazenda.pdb
 C:\Users\felip\OneDrive\Documentos\GitHub\projetoPratica2\fazenda\fazenda\obj\Debug\fazenda.MenuFazenda.resources
+C:\Users\u17176\Documents\GitHub\projetoPratica2\fazenda\fazenda\bin\Debug\fazenda.exe.config
+C:\Users\u17176\Documents\GitHub\projetoPratica2\fazenda\fazenda\bin\Debug\fazenda.exe
+C:\Users\u17176\Documents\GitHub\projetoPratica2\fazenda\fazenda\bin\Debug\fazenda.pdb
+C:\Users\u17176\Documents\GitHub\projetoPratica2\fazenda\fazenda\obj\Debug\fazenda.csprojResolveAssemblyReference.cache
+C:\Users\u17176\Documents\GitHub\projetoPratica2\fazenda\fazenda\obj\Debug\fazenda.Form1.resources
+C:\Users\u17176\Documents\GitHub\projetoPratica2\fazenda\fazenda\obj\Debug\fazenda.Form2.resources
+C:\Users\u17176\Documents\GitHub\projetoPratica2\fazenda\fazenda\obj\Debug\fazenda.MenuFazenda.resources
+C:\Users\u17176\Documents\GitHub\projetoPratica2\fazenda\fazenda\obj\Debug\fazenda.Properties.Resources.resources
+C:\Users\u17176\Documents\GitHub\projetoPratica2\fazenda\fazenda\obj\Debug\fazenda.Silo.resources
+C:\Users\u17176\Documents\GitHub\projetoPratica2\fazenda\fazenda\obj\Debug\fazenda.csproj.GenerateResource.Cache
+C:\Users\u17176\Documents\GitHub\projetoPratica2\fazenda\fazenda\obj\Debug\fazenda.csproj.CoreCompileInputs.cache
+C:\Users\u17176\Documents\GitHub\projetoPratica2\fazenda\fazenda\obj\Debug\fazenda.exe
+C:\Users\u17176\Documents\GitHub\projetoPratica2\fazenda\fazenda\obj\Debug\fazenda.pdb

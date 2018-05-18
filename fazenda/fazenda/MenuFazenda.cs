@@ -35,5 +35,37 @@ namespace fazenda
         {
             imagem.Size = new Size(((pb_celeiro.Size.Width) + (pb_celeiro.Size.Width / 10)), ((pb_celeiro.Size.Height) + (pb_celeiro.Size.Height / 10)));
         }
+
+        private Point ultimoPonto;
+        private void pb_celeiro_MouseEnter(object sender, EventArgs e)
+        {
+            PictureBox pb = (PictureBox)sender;
+
+            int altura = pb.Top;
+            pb.Size = new Size(((pb.Size.Width) + (pb.Size.Width / 10)), ((pb.Size.Height) + (pb.Size.Height / 10)));
+            ultimoPonto = pb.Location;
+            pb.Location = new Point(pb.Location.X - (pb.Size.Width / 10) /2, pb.Location.Y - (pb.Size.Height / 10) /2);
+            this.Cursor = Cursors.Hand;
+            pb.Refresh();
+            
+        }
+
+
+        private void pb_celeiro_MouseLeave(object sender, EventArgs e)
+        {
+            PictureBox pb = (PictureBox)sender;
+            this.Cursor = Cursors.Default;
+            pb.Size = new Size(((pb.Size.Width * 10) / 11), ((pb.Size.Height * 10) / 11));
+            pb.Location = ultimoPonto;
+            pb.Refresh();
+        }
+
+        private void pb_celeiro_Click(object sender, EventArgs e)
+        {
+            Form1 frm1 = new Form1(this);
+            frm1.Show();
+            this.Hide();
+            
+        }
     }
 }

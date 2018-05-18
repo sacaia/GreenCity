@@ -47,7 +47,9 @@
             this.pb_celeiro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_celeiro.TabIndex = 0;
             this.pb_celeiro.TabStop = false;
+            this.pb_celeiro.Click += new System.EventHandler(this.pb_celeiro_Click);
             this.pb_celeiro.MouseEnter += new System.EventHandler(this.pb_celeiro_MouseEnter);
+            this.pb_celeiro.MouseLeave += new System.EventHandler(this.pb_celeiro_MouseLeave);
             // 
             // pb_silo
             // 
@@ -61,6 +63,8 @@
             this.pb_silo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_silo.TabIndex = 1;
             this.pb_silo.TabStop = false;
+            this.pb_silo.MouseEnter += new System.EventHandler(this.pb_celeiro_MouseEnter);
+            this.pb_silo.MouseLeave += new System.EventHandler(this.pb_celeiro_MouseLeave);
             // 
             // MenuFazenda
             // 
@@ -72,6 +76,9 @@
             this.Controls.Add(this.pb_silo);
             this.Controls.Add(this.pb_celeiro);
             this.Cursor = System.Windows.Forms.Cursors.Default;
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "MenuFazenda";
             this.Text = "MenuFazenda";
             ((System.ComponentModel.ISupportInitialize)(this.pb_celeiro)).EndInit();

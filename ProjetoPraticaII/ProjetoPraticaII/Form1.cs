@@ -62,7 +62,10 @@ namespace ProjetoPraticaII
                 if (ds.Tables[0].Rows.Count == 1)
                 {
                     // existe o usuario com essa senha
-                    MessageBox.Show("foi o/");
+                    frmPrincipal frmP = new frmPrincipal();
+                    this.Hide();
+                    //frmC.FormClosed += (s, arg) => this.Show();
+                    frmP.Show();
                 }
 
             }

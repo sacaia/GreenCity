@@ -10,8 +10,10 @@ using System.Windows.Forms;
 
 namespace fazenda
 {
+    
     public partial class Form1 : Form
     {
+        MenuFazenda frmMenu1;
         int tempo = 0;
         int idade = 0;
         bool bicho = false;
@@ -45,10 +47,14 @@ namespace fazenda
                 DragDropEffects.Move);
         }
 
+        public Form1(MenuFazenda frmMenu) : this()
+        {
+            frmMenu1 = frmMenu;
+        }
 
 
 
-       
+
 
         private void pictureBox1_DragEnter(object sender, DragEventArgs e)
         {
@@ -234,6 +240,12 @@ namespace fazenda
         private void btn_silo_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            
+            frmMenu1.Show();
         }
     }
 }
