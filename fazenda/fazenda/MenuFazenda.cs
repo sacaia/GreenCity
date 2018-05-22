@@ -62,7 +62,7 @@ namespace fazenda
 
         private void pb_celeiro_Click(object sender, EventArgs e)
         {
-            Form1 frm1 = new Form1(this);
+            plantacaosementes frm1 = new plantacaosementes(this);
             frm1.Show();
             this.Hide();
             

@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ProjetoPraticaII;
 
 namespace fazenda
 {
-    public partial class Form4 : Form
+    public partial class frmMenuFazenda : Form
     {
-        public Form4()
+        public frmMenuFazenda()
         {
             InitializeComponent();
         }
@@ -62,9 +63,28 @@ namespace fazenda
 
         private void pb_celeiro_Click(object sender, EventArgs e)
         {
-           // Form1 frm1 = new Form1(this);
-            //frm1.Show();
-            //this.Hide();
+           
+
+        }
+
+        private void pb_silo_Click(object sender, EventArgs e)
+        {
+            Silo frmsilo = new Silo();
+            frmsilo.Show();
+            this.Hide();
+        }
+
+        private void frmMenuFazenda_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            frmPrincipal frmPrinc = new frmPrincipal();
+            frmPrinc.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            plantacaosementes frmplantacao = new plantacaosementes();
+            frmplantacao.Show();
+            this.Hide();
 
         }
     }

@@ -64,9 +64,11 @@ namespace ProjetoPraticaII
                     // existe o usuario com essa senha
                     frmPrincipal frmP = new frmPrincipal();
                     this.Hide();
-                    //frmC.FormClosed += (s, arg) => this.Show();
+                    // frmP.FormClosed += (s, arg) => this.Show();
                     frmP.Show();
                 }
+                else
+                    MessageBox.Show("Senha ou Usuário Incorretos");
 
             }
             catch (Exception ex)

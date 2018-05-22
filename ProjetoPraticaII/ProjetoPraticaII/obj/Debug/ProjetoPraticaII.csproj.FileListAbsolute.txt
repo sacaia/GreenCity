@@ -30,4 +30,7 @@ C:\Users\u17176\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPratica
 C:\Users\u17176\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.exe
 C:\Users\u17176\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.pdb
 C:\Users\u17176\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.frmPrincipal.resources
-C:\Users\u17176\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.Form4.resources
+C:\Users\u17176\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.frmMenuFazenda.resources
+C:\Users\u17176\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.Form2.resources
+C:\Users\u17176\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.plantacaosementes.resources
+C:\Users\u17176\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.Silo.resources
