@@ -34,3 +34,21 @@ C:\Users\u17176\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPratica
 C:\Users\u17176\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.Form2.resources
 C:\Users\u17176\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.plantacaosementes.resources
 C:\Users\u17176\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.Silo.resources
+C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\bin\Debug\ProjetoPraticaII.exe.config
+C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\bin\Debug\ProjetoPraticaII.exe
+C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\bin\Debug\ProjetoPraticaII.pdb
+C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.csprojResolveAssemblyReference.cache
+C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.animais.resources
+C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.frmLogin.resources
+C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.frmCadastro.resources
+C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.frmPrincipal.resources
+C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.frmMenuFazenda.resources
+C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.Form2.resources
+C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.Mercado.resources
+C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.plantacaosementes.resources
+C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.Properties.Resources.resources
+C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.Silo.resources
+C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.csproj.GenerateResource.Cache
+C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.csproj.CoreCompileInputs.cache
+C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.exe
+C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.pdb

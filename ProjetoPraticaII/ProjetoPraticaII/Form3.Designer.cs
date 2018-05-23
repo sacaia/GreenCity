@@ -28,12 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(29, 29);
+            this.button1.Location = new System.Drawing.Point(652, 147);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(80, 48);
             this.button1.TabIndex = 0;
@@ -45,10 +46,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(920, 456);
+            this.BackgroundImage = global::ProjetoPraticaII.Properties.Resources.MapaGrande;
+            this.ClientSize = new System.Drawing.Size(792, 597);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(808, 636);
+            this.MinimumSize = new System.Drawing.Size(808, 636);
             this.Name = "frmPrincipal";
             this.Text = "Green City";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmPrincipal_FormClosed_1);
