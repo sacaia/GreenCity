@@ -17,6 +17,9 @@ namespace ProjetoPraticaII
             InitializeComponent();
         }
 
+        private void frmTratamentoDeEsgoto_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }
