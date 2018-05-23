@@ -69,21 +69,22 @@ namespace fazenda
 
         private void pb_silo_Click(object sender, EventArgs e)
         {
-            Silo frmsilo = new Silo();
-            frmsilo.Show();
+            Silo frmSilo = new Silo();
+            frmSilo.FormClosed += (s, arg) => this.Show();
+            frmSilo.Show();
             this.Hide();
         }
 
         private void frmMenuFazenda_FormClosing(object sender, FormClosingEventArgs e)
         {
-            frmPrincipal frmPrinc = new frmPrincipal();
-            frmPrinc.Show();
+            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            plantacaosementes frmplantacao = new plantacaosementes();
-            frmplantacao.Show();
+            plantacaosementes frmPlantacao = new plantacaosementes();
+            frmPlantacao.FormClosed += (s, arg) => this.Show();
+            frmPlantacao.Show();
             this.Hide();
 
         }

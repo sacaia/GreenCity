@@ -137,6 +137,7 @@ namespace fazenda
         private void btn_mudarsemente_Click(object sender, EventArgs e)
         {
             Form2 semente = new Form2(this);
+            semente.FormClosed += (s, arg) => this.Show();
             semente.Show();
             this.Hide();
         }
@@ -244,8 +245,6 @@ namespace fazenda
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            frmMenuFazenda frmMenuFazenda1 = new frmMenuFazenda();
-            frmMenuFazenda1.Show();
 
         }
     }

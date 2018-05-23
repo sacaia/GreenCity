@@ -63,6 +63,16 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap GreenCity {
+            get {
+                object obj = ResourceManager.GetObject("GreenCity", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap GreenCityText2 {
             get {
                 object obj = ResourceManager.GetObject("GreenCityText2", resourceCulture);

@@ -18,24 +18,32 @@ namespace ProjetoPraticaII
             InitializeComponent();
         }
 
-        private void frmPrincipal_FormClosed(object sender, FormClosedEventArgs e)
-        {
-           
-            Application.Exit();
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
             frmMenuFazenda frmMenuFazenda = new frmMenuFazenda();
+            frmMenuFazenda.FormClosed += (s, arg) => this.Show();
             frmMenuFazenda.Show();
             this.Hide();
         }
 
       
-
-        private void frmPrincipal_FormClosed_1(object sender, FormClosedEventArgs e)
+        private void frmPrincipal_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void frmPrincipal_Load(object sender, EventArgs e)
+        {
+            this.Show();
+        }
+
+        private void btnEsgoto_Click(object sender, EventArgs e)
+        {
+            frmTratamentoDeEsgoto frmEsgoto = new frmTratamentoDeEsgoto();
+            frmEsgoto.FormClosed += (s, arg) => this.Show();
+            frmEsgoto.Show();
+            this.Hide();
         }
     }
 }

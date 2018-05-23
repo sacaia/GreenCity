@@ -25,8 +25,6 @@ namespace fazenda
 
         private void Silo_FormClosing(object sender, FormClosingEventArgs e)
         {
-            frmMenuFazenda frmMenuFazenda1 = new frmMenuFazenda();
-            frmMenuFazenda1.Show();
         }
     }
 }
