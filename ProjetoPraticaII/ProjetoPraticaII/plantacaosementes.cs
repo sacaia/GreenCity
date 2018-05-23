@@ -85,9 +85,11 @@ namespace fazenda
                 pictureBox1.BackgroundImage = planta.Images[4];
                 tempo = 0;
                 
+
             }
             if (idade == 2){
                 tempo++;
+                
             }
             
         }
@@ -176,11 +178,13 @@ namespace fazenda
         {
             if ((idade == 2)&&(crescendo>=10)&&(agua>=3))
             {
+                pb_1.Value = 0;
                 idade = 3;
                 pictureBox1.BackgroundImage = planta.Images[2];
             }else
                 if (idade == 2)
             {
+                pb_1.Value += 10;
                 crescendo++;
             }
 

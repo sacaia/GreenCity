@@ -79,3 +79,6 @@ C:\Users\TEMP\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII
 C:\Users\TEMP\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.csproj.CoreCompileInputs.cache
 C:\Users\TEMP\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.exe
 C:\Users\TEMP\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.pdb
+C:\Users\u17176\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.animais.resources
+C:\Users\u17176\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.frmTratamentoDeEsgoto.resources
+C:\Users\u17176\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.Mercado.resources

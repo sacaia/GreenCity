@@ -41,6 +41,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pb_1 = new System.Windows.Forms.ProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.pb_adubo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -158,11 +159,19 @@
             this.pictureBox1.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox1_DragEnter);
             this.pictureBox1.MouseHover += new System.EventHandler(this.pictureBox1_MouseHover);
             // 
+            // pb_1
+            // 
+            this.pb_1.Location = new System.Drawing.Point(614, 192);
+            this.pb_1.Name = "pb_1";
+            this.pb_1.Size = new System.Drawing.Size(159, 23);
+            this.pb_1.TabIndex = 7;
+            // 
             // plantacaosementes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(821, 589);
+            this.Controls.Add(this.pb_1);
             this.Controls.Add(this.pb_adubo);
             this.Controls.Add(this.lb_sementeescolhida);
             this.Controls.Add(this.btn_mudarsemente);
@@ -199,6 +208,7 @@
         private System.Windows.Forms.Timer plantacresce;
         private System.Windows.Forms.Label lb_sementeescolhida;
         private System.Windows.Forms.PictureBox pb_adubo;
+        private System.Windows.Forms.ProgressBar pb_1;
     }
 }
 
