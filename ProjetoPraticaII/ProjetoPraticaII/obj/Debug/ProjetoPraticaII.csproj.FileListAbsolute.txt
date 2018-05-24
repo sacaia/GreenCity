@@ -45,7 +45,6 @@ C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPratic
 C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.frmMenuFazenda.resources
 C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.Form2.resources
 C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.Mercado.resources
-C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.plantacaosementes.resources
 C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.Properties.Resources.resources
 C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.Silo.resources
 C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.csproj.GenerateResource.Cache
@@ -101,3 +100,5 @@ C:\Users\felip\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaI
 C:\Users\felip\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.csproj.CoreCompileInputs.cache
 C:\Users\felip\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.exe
 C:\Users\felip\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.pdb
+C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.frmTratamentoDeEsgoto.resources
+C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.frmPlantacaoSementes.resources

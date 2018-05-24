@@ -18,7 +18,7 @@ namespace fazenda
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmPlantacaoSementes());
+            Application.Run(new frmPrincipal());
         }
     }
 }

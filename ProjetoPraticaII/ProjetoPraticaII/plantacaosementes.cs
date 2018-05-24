@@ -189,7 +189,7 @@ namespace fazenda
             }else
             {
 
-                pb_1.Onpa
+                //pb_1.Onpa
             }
 
 
