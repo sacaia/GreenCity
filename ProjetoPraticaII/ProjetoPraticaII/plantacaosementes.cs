@@ -11,7 +11,7 @@ using System.Windows.Forms;
 namespace fazenda
 {
     
-    public partial class plantacaosementes : Form
+    public partial class frmPlantacaoSementes : Form
     {
         frmMenuFazenda frmMenu1;
         int tempo = 0;
@@ -24,7 +24,7 @@ namespace fazenda
         bool colheita=false;
         int[] qtdsementes = new int[5];
 
-        public plantacaosementes()
+        public frmPlantacaoSementes()
         {
             InitializeComponent();
         }
@@ -47,7 +47,7 @@ namespace fazenda
                 DragDropEffects.Move);
         }
 
-        public plantacaosementes(frmMenuFazenda frmMenu) : this()
+        public frmPlantacaoSementes(frmMenuFazenda frmMenu) : this()
         {
             frmMenu1 = frmMenu;
         }
@@ -182,10 +182,14 @@ namespace fazenda
                 idade = 3;
                 pictureBox1.BackgroundImage = planta.Images[2];
             }else
-                if (idade == 2)
+                if ((idade == 2)&&(crescendo<10))
             {
                 pb_1.Value += 10;
                 crescendo++;
+            }else
+            {
+
+                pb_1.Onpa
             }
 
 

@@ -82,7 +82,7 @@ namespace fazenda
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            plantacaosementes frmPlantacao = new plantacaosementes();
+            frmPlantacaoSementes frmPlantacao = new frmPlantacaoSementes();
             frmPlantacao.FormClosed += (s, arg) => this.Show();
             frmPlantacao.Show();
             this.Hide();

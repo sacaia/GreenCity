@@ -1,6 +1,6 @@
 ﻿namespace fazenda
 {
-    partial class plantacaosementes
+    partial class frmPlantacaoSementes
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(plantacaosementes));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPlantacaoSementes));
             this.planta = new System.Windows.Forms.ImageList(this.components);
             this.bichotimer = new System.Windows.Forms.Timer(this.components);
             this.btn_mudarsemente = new System.Windows.Forms.Button();
@@ -161,12 +161,14 @@
             // 
             // pb_1
             // 
+            this.pb_1.BackColor = System.Drawing.SystemColors.Control;
             this.pb_1.Location = new System.Drawing.Point(614, 192);
             this.pb_1.Name = "pb_1";
             this.pb_1.Size = new System.Drawing.Size(159, 23);
+            this.pb_1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.pb_1.TabIndex = 7;
             // 
-            // plantacaosementes
+            // frmPlantacaoSementes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -181,7 +183,7 @@
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.Name = "plantacaosementes";
+            this.Name = "frmPlantacaoSementes";
             this.Text = " ";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);

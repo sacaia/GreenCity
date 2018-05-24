@@ -12,13 +12,13 @@ namespace fazenda
 {
     public partial class Form2 : Form
     {
-        plantacaosementes frm1;
+        frmPlantacaoSementes frm1;
         public Form2()
         {
             InitializeComponent();
         }
 
-        public Form2(plantacaosementes frm) : this()
+        public Form2(frmPlantacaoSementes frm) : this()
         {
             frm1 = frm;
         }
