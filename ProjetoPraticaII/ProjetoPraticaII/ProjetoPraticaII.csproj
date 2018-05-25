@@ -198,5 +198,20 @@
   <ItemGroup>
     <None Include="Resources\GreenCity.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agua reciclavel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aguaReciclavelPequena.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caixaGradeadaPequena.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\decantaçãoPequeno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caixaDeGorduraPequena.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

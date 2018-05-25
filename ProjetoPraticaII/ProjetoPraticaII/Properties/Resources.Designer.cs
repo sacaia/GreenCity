@@ -63,6 +63,56 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap agua_reciclavel {
+            get {
+                object obj = ResourceManager.GetObject("agua reciclavel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap aguaReciclavelPequena {
+            get {
+                object obj = ResourceManager.GetObject("aguaReciclavelPequena", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap caixaDeGorduraPequena {
+            get {
+                object obj = ResourceManager.GetObject("caixaDeGorduraPequena", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap caixaGradeadaPequena {
+            get {
+                object obj = ResourceManager.GetObject("caixaGradeadaPequena", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap decantaçãoPequeno {
+            get {
+                object obj = ResourceManager.GetObject("decantaçãoPequeno", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap GreenCity {
             get {
                 object obj = ResourceManager.GetObject("GreenCity", resourceCulture);
