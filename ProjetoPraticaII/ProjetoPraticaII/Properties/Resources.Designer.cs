@@ -83,6 +83,16 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bacteriaAnaerobicaPequeno {
+            get {
+                object obj = ResourceManager.GetObject("bacteriaAnaerobicaPequeno", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap caixaDeGorduraPequena {
             get {
                 object obj = ResourceManager.GetObject("caixaDeGorduraPequena", resourceCulture);

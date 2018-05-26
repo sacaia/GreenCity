@@ -213,5 +213,8 @@
   <ItemGroup>
     <None Include="Resources\caixaDeGorduraPequena.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bacteriaAnaerobicaPequeno.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -108,10 +108,20 @@ namespace ProjetoPraticaII
                     lbTitulo.Text = "+ Tratamento secundário";
                     lbTexto.Height = 143;
                     lbTexto.Text = "     - Biodigestor\n" +
-                                   "         A fase de Tratamento primário é focada na remoção de impurezas por meio de processos químicos " +
-                                   "como, filtração e decantação. Ao final desta fase a água se encontra 30% tratada." +
+                                   "         A faze do biodigestor consiste na utilização de micro-organismos anaeróbicos para fazer a quebra " +
+                                   "das moleculas disolvidas na água, gerando gases, como metano e biogás, que podem ser queimados para gerar " +
+                                   "energia elétrica.";
+                    pbImagem.BackgroundImage = Properties.Resources.bacteriaAnaerobicaPequeno;
+                break;
+
+                case 7:
+                    lbTitulo.Text = "+ Tratamento secundário";
+                    lbTexto.Height = 143;
+                    lbTexto.Text = "     - Biofiltro\n" +
+                                   "         O biofiltro é a fase onde são retiradas as inpurezas restantes por meio de biodegradação. " +
+                                   "" +
                                    "";
-                    pbImagem.BackgroundImage = Properties.Resources.aguaReciclavelPequena;
+                    pbImagem.BackgroundImage = Properties.Resources.bacteriaAnaerobicaPequeno;
                 break;
 
                 default:
