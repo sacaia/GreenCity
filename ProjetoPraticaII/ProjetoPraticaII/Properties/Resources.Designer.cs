@@ -93,6 +93,16 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap biofiltroPequeno {
+            get {
+                object obj = ResourceManager.GetObject("biofiltroPequeno", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap caixaDeGorduraPequena {
             get {
                 object obj = ResourceManager.GetObject("caixaDeGorduraPequena", resourceCulture);
@@ -143,6 +153,16 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Logo2_3 {
+            get {
+                object obj = ResourceManager.GetObject("Logo2_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Mapa {
             get {
                 object obj = ResourceManager.GetObject("Mapa", resourceCulture);
@@ -156,6 +176,16 @@ namespace ProjetoPraticaII.Properties {
         internal static System.Drawing.Bitmap MapaGrande {
             get {
                 object obj = ResourceManager.GetObject("MapaGrande", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tratamentoLuzUVPequena {
+            get {
+                object obj = ResourceManager.GetObject("tratamentoLuzUVPequena", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -30,12 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmTratamentoDeEsgoto));
             this.lbTitulo = new System.Windows.Forms.Label();
-            this.pn = new System.Windows.Forms.Panel();
+            this.pnIntroducao = new System.Windows.Forms.Panel();
             this.btnAnt = new System.Windows.Forms.Button();
             this.btnProx = new System.Windows.Forms.Button();
             this.lbTexto = new System.Windows.Forms.Label();
             this.pbImagem = new System.Windows.Forms.PictureBox();
-            this.pn.SuspendLayout();
+            this.btnJogar = new System.Windows.Forms.Button();
+            this.pnIntroducao.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbImagem)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,19 +50,20 @@
             this.lbTitulo.TabIndex = 0;
             this.lbTitulo.Text = "Titulo:";
             // 
-            // pn
+            // pnIntroducao
             // 
-            this.pn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(228)))), ((int)(((byte)(180)))));
-            this.pn.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pn.Controls.Add(this.btnAnt);
-            this.pn.Controls.Add(this.btnProx);
-            this.pn.Controls.Add(this.lbTexto);
-            this.pn.Controls.Add(this.pbImagem);
-            this.pn.Controls.Add(this.lbTitulo);
-            this.pn.Location = new System.Drawing.Point(46, 28);
-            this.pn.Name = "pn";
-            this.pn.Size = new System.Drawing.Size(406, 363);
-            this.pn.TabIndex = 1;
+            this.pnIntroducao.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(228)))), ((int)(((byte)(180)))));
+            this.pnIntroducao.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnIntroducao.Controls.Add(this.btnJogar);
+            this.pnIntroducao.Controls.Add(this.btnAnt);
+            this.pnIntroducao.Controls.Add(this.btnProx);
+            this.pnIntroducao.Controls.Add(this.lbTexto);
+            this.pnIntroducao.Controls.Add(this.pbImagem);
+            this.pnIntroducao.Controls.Add(this.lbTitulo);
+            this.pnIntroducao.Location = new System.Drawing.Point(46, 28);
+            this.pnIntroducao.Name = "pnIntroducao";
+            this.pnIntroducao.Size = new System.Drawing.Size(406, 363);
+            this.pnIntroducao.TabIndex = 1;
             // 
             // btnAnt
             // 
@@ -103,18 +105,28 @@
             this.pbImagem.TabIndex = 1;
             this.pbImagem.TabStop = false;
             // 
+            // btnJogar
+            // 
+            this.btnJogar.Location = new System.Drawing.Point(162, 335);
+            this.btnJogar.Name = "btnJogar";
+            this.btnJogar.Size = new System.Drawing.Size(75, 23);
+            this.btnJogar.TabIndex = 4;
+            this.btnJogar.Text = "Jogar";
+            this.btnJogar.UseVisualStyleBackColor = true;
+            this.btnJogar.Click += new System.EventHandler(this.btnJogar_Click);
+            // 
             // frmTratamentoDeEsgoto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(561, 434);
-            this.Controls.Add(this.pn);
+            this.Controls.Add(this.pnIntroducao);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmTratamentoDeEsgoto";
             this.Text = "Tratamento de esgoto";
             this.Load += new System.EventHandler(this.frmTratamentoDeEsgoto_Load);
-            this.pn.ResumeLayout(false);
-            this.pn.PerformLayout();
+            this.pnIntroducao.ResumeLayout(false);
+            this.pnIntroducao.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbImagem)).EndInit();
             this.ResumeLayout(false);
 
@@ -123,10 +135,11 @@
         #endregion
 
         private System.Windows.Forms.Label lbTitulo;
-        private System.Windows.Forms.Panel pn;
+        private System.Windows.Forms.Panel pnIntroducao;
         private System.Windows.Forms.Label lbTexto;
         private System.Windows.Forms.PictureBox pbImagem;
         private System.Windows.Forms.Button btnAnt;
         private System.Windows.Forms.Button btnProx;
+        private System.Windows.Forms.Button btnJogar;
     }
 }
