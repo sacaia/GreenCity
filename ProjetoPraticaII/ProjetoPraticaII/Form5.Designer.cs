@@ -28,15 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmTratamentoDeEsgoto));
             this.lbTitulo = new System.Windows.Forms.Label();
             this.pnIntroducao = new System.Windows.Forms.Panel();
             this.btnAnt = new System.Windows.Forms.Button();
             this.btnProx = new System.Windows.Forms.Button();
             this.lbTexto = new System.Windows.Forms.Label();
-            this.pbImagem = new System.Windows.Forms.PictureBox();
             this.btnJogar = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.timer = new System.Windows.Forms.Timer(this.components);
+            this.pbItem3 = new System.Windows.Forms.PictureBox();
+            this.pbItem2 = new System.Windows.Forms.PictureBox();
+            this.pbItem1 = new System.Windows.Forms.PictureBox();
+            this.pbMain = new System.Windows.Forms.PictureBox();
+            this.pbImagem = new System.Windows.Forms.PictureBox();
             this.pnIntroducao.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbItem3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbItem2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbItem1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMain)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbImagem)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,7 +72,7 @@
             this.pnIntroducao.Controls.Add(this.lbTexto);
             this.pnIntroducao.Controls.Add(this.pbImagem);
             this.pnIntroducao.Controls.Add(this.lbTitulo);
-            this.pnIntroducao.Location = new System.Drawing.Point(46, 28);
+            this.pnIntroducao.Location = new System.Drawing.Point(12, 12);
             this.pnIntroducao.Name = "pnIntroducao";
             this.pnIntroducao.Size = new System.Drawing.Size(406, 363);
             this.pnIntroducao.TabIndex = 1;
@@ -94,6 +106,71 @@
             this.lbTexto.TabIndex = 0;
             this.lbTexto.Text = resources.GetString("lbTexto.Text");
             // 
+            // btnJogar
+            // 
+            this.btnJogar.Location = new System.Drawing.Point(162, 335);
+            this.btnJogar.Name = "btnJogar";
+            this.btnJogar.Size = new System.Drawing.Size(75, 23);
+            this.btnJogar.TabIndex = 4;
+            this.btnJogar.Text = "Jogar";
+            this.btnJogar.UseVisualStyleBackColor = true;
+            this.btnJogar.Click += new System.EventHandler(this.btnJogar_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(228)))), ((int)(((byte)(180)))));
+            this.panel1.Controls.Add(this.pbItem3);
+            this.panel1.Controls.Add(this.pbItem2);
+            this.panel1.Controls.Add(this.pbItem1);
+            this.panel1.Controls.Add(this.pbMain);
+            this.panel1.Location = new System.Drawing.Point(424, 12);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(455, 363);
+            this.panel1.TabIndex = 2;
+            // 
+            // timer
+            // 
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
+            // 
+            // pbItem3
+            // 
+            this.pbItem3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pbItem3.Location = new System.Drawing.Point(312, 270);
+            this.pbItem3.Name = "pbItem3";
+            this.pbItem3.Size = new System.Drawing.Size(140, 89);
+            this.pbItem3.TabIndex = 3;
+            this.pbItem3.TabStop = false;
+            this.pbItem3.Click += new System.EventHandler(this.pbItem3_Click);
+            // 
+            // pbItem2
+            // 
+            this.pbItem2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pbItem2.Location = new System.Drawing.Point(159, 270);
+            this.pbItem2.Name = "pbItem2";
+            this.pbItem2.Size = new System.Drawing.Size(140, 89);
+            this.pbItem2.TabIndex = 2;
+            this.pbItem2.TabStop = false;
+            this.pbItem2.Click += new System.EventHandler(this.pbItem2_Click);
+            // 
+            // pbItem1
+            // 
+            this.pbItem1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pbItem1.Location = new System.Drawing.Point(3, 270);
+            this.pbItem1.Name = "pbItem1";
+            this.pbItem1.Size = new System.Drawing.Size(140, 89);
+            this.pbItem1.TabIndex = 1;
+            this.pbItem1.TabStop = false;
+            this.pbItem1.Click += new System.EventHandler(this.pbItem1_Click);
+            // 
+            // pbMain
+            // 
+            this.pbMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pbMain.Location = new System.Drawing.Point(3, 3);
+            this.pbMain.Name = "pbMain";
+            this.pbMain.Size = new System.Drawing.Size(449, 261);
+            this.pbMain.TabIndex = 0;
+            this.pbMain.TabStop = false;
+            // 
             // pbImagem
             // 
             this.pbImagem.BackgroundImage = global::ProjetoPraticaII.Properties.Resources.aguaReciclavelPequena;
@@ -105,21 +182,12 @@
             this.pbImagem.TabIndex = 1;
             this.pbImagem.TabStop = false;
             // 
-            // btnJogar
-            // 
-            this.btnJogar.Location = new System.Drawing.Point(162, 335);
-            this.btnJogar.Name = "btnJogar";
-            this.btnJogar.Size = new System.Drawing.Size(75, 23);
-            this.btnJogar.TabIndex = 4;
-            this.btnJogar.Text = "Jogar";
-            this.btnJogar.UseVisualStyleBackColor = true;
-            this.btnJogar.Click += new System.EventHandler(this.btnJogar_Click);
-            // 
             // frmTratamentoDeEsgoto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(561, 434);
+            this.ClientSize = new System.Drawing.Size(891, 399);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.pnIntroducao);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmTratamentoDeEsgoto";
@@ -127,6 +195,11 @@
             this.Load += new System.EventHandler(this.frmTratamentoDeEsgoto_Load);
             this.pnIntroducao.ResumeLayout(false);
             this.pnIntroducao.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbItem3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbItem2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbItem1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMain)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbImagem)).EndInit();
             this.ResumeLayout(false);
 
@@ -141,5 +214,11 @@
         private System.Windows.Forms.Button btnAnt;
         private System.Windows.Forms.Button btnProx;
         private System.Windows.Forms.Button btnJogar;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pbMain;
+        private System.Windows.Forms.PictureBox pbItem3;
+        private System.Windows.Forms.PictureBox pbItem2;
+        private System.Windows.Forms.PictureBox pbItem1;
+        private System.Windows.Forms.Timer timer;
     }
 }

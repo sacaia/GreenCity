@@ -13,6 +13,8 @@ namespace ProjetoPraticaII
     public partial class frmTratamentoDeEsgoto : Form
     {
         int pagAtual = 0;
+        int nivel = 0;
+        int gif = 0;
 
         public frmTratamentoDeEsgoto()
         {
@@ -171,6 +173,107 @@ namespace ProjetoPraticaII
         private void btnJogar_Click(object sender, EventArgs e)
         {
             pnIntroducao.Hide();
+            timer.Interval = 1000;
+            timer.Start();
+        }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            switch (nivel)
+            {
+                case 0:
+                    pbItem1.BackgroundImage = Properties.Resources.gradePequena;
+                    pbItem2.BackgroundImage = Properties.Resources.redePequena;
+                    pbItem3.BackgroundImage = Properties.Resources.candidaPequena;
+                    switch (gif)
+                    {
+                        case 0:
+                            pbMain.BackgroundImage = Properties.Resources.entradaEsgoto1_0;
+                        break;
+
+                        case 1:
+                            pbMain.BackgroundImage = Properties.Resources.entradaEsgoto1_1;
+                        break;
+
+                        case 2:
+                            pbMain.BackgroundImage = Properties.Resources.entradaEsgoto1_2;
+                        break;
+                    }
+                    if (gif == 2)
+                        gif = 0;
+                    else
+                        gif++;
+                break;
+
+                case 1:
+                    pbItem1.BackgroundImage = Properties.Resources.candidaPequena;
+                    pbItem2.BackgroundImage = Properties.Resources.redePequena;
+                    pbItem3.BackgroundImage = Properties.Resources.ampulheta;
+                    switch (gif)
+                    {
+                        case 0:
+                            pbMain.BackgroundImage = Properties.Resources.arenacao1_0;
+                            break;
+
+                        case 1:
+                            pbMain.BackgroundImage = Properties.Resources.arenacao1_1;
+                            break;
+
+                        case 2:
+                            pbMain.BackgroundImage = Properties.Resources.arenacao1_2;
+                            break;
+                    }
+                    if (gif == 2)
+                        gif = 0;
+                    else
+                        gif++;
+                break;
+
+                default:
+                    Console.WriteLine("Default case");
+                break;
+            }
+        }
+
+        private void aux(int item)
+        {
+            switch(nivel)
+            {
+                case 0:
+                    if (item == 1)
+                    {
+                        MessageBox.Show("parabéns");
+                        nivel++;
+                    }            
+                    else
+                        MessageBox.Show("too bad");
+                break;
+
+                case 1:
+                    if (item == 3)
+                    {
+                        MessageBox.Show("parabéns");
+                        nivel++;
+                    }
+                    else
+                        MessageBox.Show("too bad");
+                break;
+            }
+        }
+
+        private void pbItem1_Click(object sender, EventArgs e)
+        {
+            aux(1);
+        }
+
+        private void pbItem2_Click(object sender, EventArgs e)
+        {
+            aux(2);
+        }
+
+        private void pbItem3_Click(object sender, EventArgs e)
+        {
+            aux(3);
         }
     }
 }

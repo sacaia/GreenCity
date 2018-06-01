@@ -225,5 +225,41 @@
   <ItemGroup>
     <None Include="Resources\tratamentoLuzUVPequena.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entradaEsgoto1.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entradaEsgoto1.2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grade.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rede.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gradePequena.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redePequena.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\candidaPequena.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entradaEsgoto1.0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arenacao1.0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arenacao1.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arenacao1.2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ampulheta.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
