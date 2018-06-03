@@ -123,6 +123,26 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fazenda_SetaMenuDireita {
+            get {
+                object obj = ResourceManager.GetObject("fazenda_SetaMenuDireita", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fazenda_SetaMenuEsquerda {
+            get {
+                object obj = ResourceManager.GetObject("fazenda_SetaMenuEsquerda", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap GreenCity {
             get {
                 object obj = ResourceManager.GetObject("GreenCity", resourceCulture);

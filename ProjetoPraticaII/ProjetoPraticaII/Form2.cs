@@ -28,6 +28,7 @@ namespace ProjetoPraticaII
             //this.Hide();
             //frmL.FormClosed += (s, arg) => this.Show(); N precisa
             //frmL.Show();
+          
         }
 
         private void frmCadastro_FormClosed(object sender, FormClosedEventArgs e)

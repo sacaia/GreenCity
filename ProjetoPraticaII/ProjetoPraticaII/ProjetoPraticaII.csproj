@@ -216,5 +216,11 @@
   <ItemGroup>
     <None Include="Resources\bacteriaAnaerobicaPequeno.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fazenda_SetaMenuDireita.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fazenda_SetaMenuEsquerda.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
