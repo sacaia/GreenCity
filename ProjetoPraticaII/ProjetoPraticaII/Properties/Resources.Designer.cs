@@ -83,9 +83,59 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ampulheta {
+            get {
+                object obj = ResourceManager.GetObject("ampulheta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap arenacao1_0 {
+            get {
+                object obj = ResourceManager.GetObject("arenacao1_0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap arenacao1_1 {
+            get {
+                object obj = ResourceManager.GetObject("arenacao1_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap arenacao1_2 {
+            get {
+                object obj = ResourceManager.GetObject("arenacao1_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bacteriaAnaerobicaPequeno {
             get {
                 object obj = ResourceManager.GetObject("bacteriaAnaerobicaPequeno", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap biofiltroPequeno {
+            get {
+                object obj = ResourceManager.GetObject("biofiltroPequeno", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,6 +163,16 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap candidaPequena {
+            get {
+                object obj = ResourceManager.GetObject("candidaPequena", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap decantaçãoPequeno {
             get {
                 object obj = ResourceManager.GetObject("decantaçãoPequeno", resourceCulture);
@@ -123,9 +183,15 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap fazenda_SetaMenuDireita {
             get {
                 object obj = ResourceManager.GetObject("fazenda_SetaMenuDireita", resourceCulture);
+=======
+        internal static System.Drawing.Bitmap entradaEsgoto1_0 {
+            get {
+                object obj = ResourceManager.GetObject("entradaEsgoto1_0", resourceCulture);
+>>>>>>> c27786335c652342d451fbdd04e45dabf846b1b1
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +199,45 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap fazenda_SetaMenuEsquerda {
             get {
                 object obj = ResourceManager.GetObject("fazenda_SetaMenuEsquerda", resourceCulture);
+=======
+        internal static System.Drawing.Bitmap entradaEsgoto1_1 {
+            get {
+                object obj = ResourceManager.GetObject("entradaEsgoto1_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap entradaEsgoto1_2 {
+            get {
+                object obj = ResourceManager.GetObject("entradaEsgoto1_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap grade {
+            get {
+                object obj = ResourceManager.GetObject("grade", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gradePequena {
+            get {
+                object obj = ResourceManager.GetObject("gradePequena", resourceCulture);
+>>>>>>> c27786335c652342d451fbdd04e45dabf846b1b1
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,6 +265,16 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Logo2_3 {
+            get {
+                object obj = ResourceManager.GetObject("Logo2_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Mapa {
             get {
                 object obj = ResourceManager.GetObject("Mapa", resourceCulture);
@@ -176,6 +288,36 @@ namespace ProjetoPraticaII.Properties {
         internal static System.Drawing.Bitmap MapaGrande {
             get {
                 object obj = ResourceManager.GetObject("MapaGrande", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rede {
+            get {
+                object obj = ResourceManager.GetObject("rede", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap redePequena {
+            get {
+                object obj = ResourceManager.GetObject("redePequena", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tratamentoLuzUVPequena {
+            get {
+                object obj = ResourceManager.GetObject("tratamentoLuzUVPequena", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

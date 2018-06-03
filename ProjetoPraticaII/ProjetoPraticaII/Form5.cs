@@ -13,6 +13,8 @@ namespace ProjetoPraticaII
     public partial class frmTratamentoDeEsgoto : Form
     {
         int pagAtual = 0;
+        int nivel = 0;
+        int gif = 0;
 
         public frmTratamentoDeEsgoto()
         {
@@ -22,6 +24,7 @@ namespace ProjetoPraticaII
         private void frmTratamentoDeEsgoto_Load(object sender, EventArgs e)
         {
             atualizarTela();
+            btnJogar.Hide();
         }
 
         private void btnProx_Click(object sender, EventArgs e)
@@ -32,7 +35,8 @@ namespace ProjetoPraticaII
 
         private void btnAnt_Click(object sender, EventArgs e)
         {
-            pagAtual--;
+            if (pagAtual != 0)
+                pagAtual--;
             atualizarTela();
         }
 
@@ -45,6 +49,7 @@ namespace ProjetoPraticaII
                     lbTexto.Height = 143;
                     lbTexto.Text = "    Esta é a introdução ao tema do tratamento de esgoto, clique no botão para continuar a explicação";
                     pbImagem.BackgroundImage = Properties.Resources.aguaReciclavelPequena;
+                    btnAnt.Enabled = false;
                 break;
 
                 case 1:
@@ -53,7 +58,7 @@ namespace ProjetoPraticaII
                     lbTexto.Text = "    O tratamento de esgoto é dividido em:\n" +
                                                      "        + Tratamento primário\n" +
                                                      "          - Gradeamento\n" +
-                                                     "          - Arenção\n" +
+                                                     "          - Arenação\n" +
                                                      "          - Caixa de gordura\n" +
                                                      "\n" +
                                                      "        + Tratamento secundário\n" +
@@ -62,6 +67,7 @@ namespace ProjetoPraticaII
                                                      "\n" +
                                                      "        + Tratamento terciário";
                     pbImagem.BackgroundImage = null;
+                    btnAnt.Enabled = true;
                 break;
 
                 case 2:
@@ -98,7 +104,7 @@ namespace ProjetoPraticaII
                     lbTitulo.Text = "+ Tratamento primário";
                     lbTexto.Height = 143;
                     lbTexto.Text = "     - Conclusão\n" +
-                                   "         A fase de Tratamento primário é focada na remoção de impurezas por meio de processos químicos " +
+                                   "         A fase de Tratamento primário é focada na remoção de impurezas por meio de processos físicos " +
                                    "como, filtração e decantação. Ao final desta fase a água se encontra 30% tratada." +
                                    "";
                     pbImagem.BackgroundImage = Properties.Resources.aguaReciclavelPequena;
@@ -119,15 +125,155 @@ namespace ProjetoPraticaII
                     lbTexto.Height = 143;
                     lbTexto.Text = "     - Biofiltro\n" +
                                    "         O biofiltro é a fase onde são retiradas as inpurezas restantes por meio de biodegradação. " +
+                                   "São utilizadas plantas para absorverem as impurezas da água." +
+                                   "";
+                    pbImagem.BackgroundImage = Properties.Resources.biofiltroPequeno;
+                break;
+
+                case 8:
+                    lbTitulo.Text = "+ Tratamento secundário";
+                    lbTexto.Height = 143;
+                    lbTexto.Text = "     - Conclusão\n" +
+                                   "         A fase de Tratamento secundário é focada na remoção de impurezas que não foram retidas por meios " +
+                                   "físicos, utilizando para isso processos biológicos, como o auxílio de bactérias biodigestoras e plantas. " +
+                                   "Ao final desta fase a água se encontra 90% tratada.";
+                    pbImagem.BackgroundImage = Properties.Resources.aguaReciclavelPequena;
+                break;
+
+                case 9:
+                    lbTitulo.Text = "+ Tratamento terciário";
+                    lbTexto.Height = 143;
+                    lbTexto.Text = "     - Conclusão\n" +
+                                   "         O tratamento terciário consiste em eliminar os micro organismos por meio de um tratamento químico " +
+                                   "adicionando cloro ou utilizando luz ultravioleta. Depois da eliminação destes micro organismos restantes " +
+                                   "a água se encontra totalmente tratada e pronta para ser reutilizada.";
+                    pbImagem.BackgroundImage = Properties.Resources.tratamentoLuzUVPequena;
+                    btnProx.Enabled = true;
+                    btnJogar.Hide();
+                break;
+
+                case 10:
+                    lbTitulo.Text = "Tratamento de esgoto";
+                    lbTexto.Height = 143;
+                    lbTexto.Text = "     - O jogo\n" +
+                                   "         Para jogar é preciso passar por todas as fazes do tratamento de esgoto conforme você aprendeu." +
                                    "" +
                                    "";
-                    pbImagem.BackgroundImage = Properties.Resources.bacteriaAnaerobicaPequeno;
+                    pbImagem.BackgroundImage = Properties.Resources.aguaReciclavelPequena;
+                    btnProx.Enabled = false;
+                    btnJogar.Show();
+                    break;
+
+                default:
+                    Console.WriteLine("Default case");
+                break;
+            }
+        }
+
+        private void btnJogar_Click(object sender, EventArgs e)
+        {
+            pnIntroducao.Hide();
+            timer.Interval = 1000;
+            timer.Start();
+        }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            switch (nivel)
+            {
+                case 0:
+                    pbItem1.BackgroundImage = Properties.Resources.gradePequena;
+                    pbItem2.BackgroundImage = Properties.Resources.redePequena;
+                    pbItem3.BackgroundImage = Properties.Resources.candidaPequena;
+                    switch (gif)
+                    {
+                        case 0:
+                            pbMain.BackgroundImage = Properties.Resources.entradaEsgoto1_0;
+                        break;
+
+                        case 1:
+                            pbMain.BackgroundImage = Properties.Resources.entradaEsgoto1_1;
+                        break;
+
+                        case 2:
+                            pbMain.BackgroundImage = Properties.Resources.entradaEsgoto1_2;
+                        break;
+                    }
+                    if (gif == 2)
+                        gif = 0;
+                    else
+                        gif++;
+                break;
+
+                case 1:
+                    pbItem1.BackgroundImage = Properties.Resources.candidaPequena;
+                    pbItem2.BackgroundImage = Properties.Resources.redePequena;
+                    pbItem3.BackgroundImage = Properties.Resources.ampulheta;
+                    switch (gif)
+                    {
+                        case 0:
+                            pbMain.BackgroundImage = Properties.Resources.arenacao1_0;
+                            break;
+
+                        case 1:
+                            pbMain.BackgroundImage = Properties.Resources.arenacao1_1;
+                            break;
+
+                        case 2:
+                            pbMain.BackgroundImage = Properties.Resources.arenacao1_2;
+                            break;
+                    }
+                    if (gif == 2)
+                        gif = 0;
+                    else
+                        gif++;
                 break;
 
                 default:
                     Console.WriteLine("Default case");
                 break;
             }
+        }
+
+        private void aux(int item)
+        {
+            switch(nivel)
+            {
+                case 0:
+                    if (item == 1)
+                    {
+                        MessageBox.Show("parabéns");
+                        nivel++;
+                    }            
+                    else
+                        MessageBox.Show("too bad");
+                break;
+
+                case 1:
+                    if (item == 3)
+                    {
+                        MessageBox.Show("parabéns");
+                        nivel++;
+                    }
+                    else
+                        MessageBox.Show("too bad");
+                break;
+            }
+        }
+
+        private void pbItem1_Click(object sender, EventArgs e)
+        {
+            aux(1);
+        }
+
+        private void pbItem2_Click(object sender, EventArgs e)
+        {
+            aux(2);
+        }
+
+        private void pbItem3_Click(object sender, EventArgs e)
+        {
+            aux(3);
         }
     }
 }
