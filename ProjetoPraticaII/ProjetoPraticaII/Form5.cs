@@ -182,8 +182,8 @@ namespace ProjetoPraticaII
             switch (nivel)
             {
                 case 0:
-                    pbItem1.BackgroundImage = Properties.Resources.grade;
-                    pbItem2.BackgroundImage = Properties.Resources.rede;
+                    pbItem1.BackgroundImage = Properties.Resources.gradePequena;
+                    pbItem2.BackgroundImage = Properties.Resources.redePequena;
                     pbItem3.BackgroundImage = Properties.Resources.candidaPequena;
                     switch (gif)
                     {
@@ -207,7 +207,7 @@ namespace ProjetoPraticaII
 
                 case 1:
                     pbItem1.BackgroundImage = Properties.Resources.candidaPequena;
-                    pbItem2.BackgroundImage = Properties.Resources.bactéria;
+                    pbItem2.BackgroundImage = Properties.Resources.redePequena;
                     pbItem3.BackgroundImage = Properties.Resources.ampulheta;
                     switch (gif)
                     {
@@ -229,78 +229,6 @@ namespace ProjetoPraticaII
                         gif++;
                 break;
 
-                case 2:
-                    pbItem1.BackgroundImage = Properties.Resources.bactéria;
-                    pbItem2.BackgroundImage = Properties.Resources.rede;
-                    pbItem3.BackgroundImage = Properties.Resources.divisorias;
-                    switch (gif)
-                    {
-                        case 0:
-                            pbMain.BackgroundImage = Properties.Resources.caixaDeGordura1_0;
-                            break;
-
-                        case 1:
-                            pbMain.BackgroundImage = Properties.Resources.caixaDeGordura1_1;
-                            break;
-
-                        case 2:
-                            pbMain.BackgroundImage = Properties.Resources.caixaDeGordura1_2;
-                            break;
-                    }
-                    if (gif == 2)
-                        gif = 0;
-                    else
-                        gif++;
-                 break;
-
-                case 3:
-                    pbItem1.BackgroundImage = Properties.Resources.planta;
-                    pbItem2.BackgroundImage = Properties.Resources.bactéria;
-                    pbItem3.BackgroundImage = Properties.Resources.candidaPequena;
-                    switch (gif)
-                    {
-                        case 0:
-                            pbMain.BackgroundImage = Properties.Resources.biodigestor1_0;
-                            break;
-
-                        case 1:
-                            pbMain.BackgroundImage = Properties.Resources.biodigestor1_1;
-                            break;
-
-                        case 2:
-                            pbMain.BackgroundImage = Properties.Resources.biodigestor1_2;
-                            break;
-                    }
-                    if (gif == 2)
-                        gif = 0;
-                    else
-                        gif++;
-                break;
-
-                case 4:
-                    pbItem1.BackgroundImage = Properties.Resources.candidaPequena;
-                    pbItem2.BackgroundImage = Properties.Resources.planta;
-                    pbItem3.BackgroundImage = Properties.Resources.ampulheta;
-                    switch (gif)
-                    {
-                        case 0:
-                            pbMain.BackgroundImage = Properties.Resources.biofiltro1_0;
-                            break;
-
-                        case 1:
-                            pbMain.BackgroundImage = Properties.Resources.biofiltro1_1;
-                            break;
-
-                        case 2:
-                            pbMain.BackgroundImage = Properties.Resources.biofiltro1_2;
-                            break;
-                    }
-                    if (gif == 2)
-                        gif = 0;
-                    else
-                        gif++;
-                 break;
-
                 default:
                     Console.WriteLine("Default case");
                 break;
@@ -314,8 +242,6 @@ namespace ProjetoPraticaII
                 case 0:
                     if (item == 1)
                     {
-                        gif = 0;
-                        pbMain.BackgroundImage = Properties.Resources.entradaEsgotoFinal;
                         MessageBox.Show("parabéns");
                         nivel++;
                     }            
@@ -326,47 +252,6 @@ namespace ProjetoPraticaII
                 case 1:
                     if (item == 3)
                     {
-                        gif = 0;
-                        pbMain.BackgroundImage = Properties.Resources.arenacaoFinal;
-                        MessageBox.Show("parabéns");
-                        nivel++;
-                    }
-                    else
-                        MessageBox.Show("too bad");
-                break;
-
-                case 2:
-                    if (item == 3)
-                    {
-
-                        gif = 0;
-                        pbMain.BackgroundImage = Properties.Resources.caixaDeGorduraFinal;
-                        MessageBox.Show("parabéns");
-                        nivel++;
-                    }
-                    else
-                        MessageBox.Show("too bad");
-                break;
-
-                case 3:
-                    if (item == 2)
-                    {
-
-                        gif = 0;
-                        pbMain.BackgroundImage = Properties.Resources.biodigestorFinal;
-                        MessageBox.Show("parabéns");
-                        nivel++;
-                    }
-                    else
-                        MessageBox.Show("too bad");
-                break;
-
-                case 4:
-                    if (item == 2)
-                    {
-
-                        gif = 0;
-                        pbMain.BackgroundImage = Properties.Resources.biofiltroFinal;
                         MessageBox.Show("parabéns");
                         nivel++;
                     }

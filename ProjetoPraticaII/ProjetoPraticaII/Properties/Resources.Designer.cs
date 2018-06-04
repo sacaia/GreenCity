@@ -123,26 +123,6 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap arenacaoFinal {
-            get {
-                object obj = ResourceManager.GetObject("arenacaoFinal", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap bactéria {
-            get {
-                object obj = ResourceManager.GetObject("bactéria", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap bacteriaAnaerobicaPequeno {
             get {
                 object obj = ResourceManager.GetObject("bacteriaAnaerobicaPequeno", resourceCulture);
@@ -153,129 +133,9 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap biodigestor1_0 {
-            get {
-                object obj = ResourceManager.GetObject("biodigestor1_0", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap biodigestor1_1 {
-            get {
-                object obj = ResourceManager.GetObject("biodigestor1_1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap biodigestor1_2 {
-            get {
-                object obj = ResourceManager.GetObject("biodigestor1_2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap biodigestorFinal {
-            get {
-                object obj = ResourceManager.GetObject("biodigestorFinal", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap biofiltro1_0 {
-            get {
-                object obj = ResourceManager.GetObject("biofiltro1_0", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap biofiltro1_1 {
-            get {
-                object obj = ResourceManager.GetObject("biofiltro1_1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap biofiltro1_2 {
-            get {
-                object obj = ResourceManager.GetObject("biofiltro1_2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap biofiltroFinal {
-            get {
-                object obj = ResourceManager.GetObject("biofiltroFinal", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap biofiltroPequeno {
             get {
                 object obj = ResourceManager.GetObject("biofiltroPequeno", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap caixaDeGordura1_0 {
-            get {
-                object obj = ResourceManager.GetObject("caixaDeGordura1_0", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap caixaDeGordura1_1 {
-            get {
-                object obj = ResourceManager.GetObject("caixaDeGordura1_1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap caixaDeGordura1_2 {
-            get {
-                object obj = ResourceManager.GetObject("caixaDeGordura1_2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap caixaDeGorduraFinal {
-            get {
-                object obj = ResourceManager.GetObject("caixaDeGorduraFinal", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -324,6 +184,7 @@ namespace ProjetoPraticaII.Properties {
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
 <<<<<<< HEAD
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap divisorias {
             get {
                 object obj = ResourceManager.GetObject("divisorias", resourceCulture);
@@ -341,6 +202,8 @@ namespace ProjetoPraticaII.Properties {
                 object obj = ResourceManager.GetObject("fazenda_SetaMenuDireita", resourceCulture);
 =======
 >>>>>>> c015ba62cd23a92cebddb56898a5267c40c9449e
+=======
+>>>>>>> parent of 3ccc41e... tratamento de esgoto
         internal static System.Drawing.Bitmap entradaEsgoto1_0 {
             get {
                 object obj = ResourceManager.GetObject("entradaEsgoto1_0", resourceCulture);
@@ -377,9 +240,9 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap entradaEsgotoFinal {
+        internal static System.Drawing.Bitmap grade {
             get {
-                object obj = ResourceManager.GetObject("entradaEsgotoFinal", resourceCulture);
+                object obj = ResourceManager.GetObject("grade", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -387,14 +250,18 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap grade {
+        internal static System.Drawing.Bitmap gradePequena {
             get {
+<<<<<<< HEAD
 <<<<<<< HEAD
                 object obj = ResourceManager.GetObject("grade", resourceCulture);
 =======
                 object obj = ResourceManager.GetObject("gradePequena", resourceCulture);
 >>>>>>> c27786335c652342d451fbdd04e45dabf846b1b1
 >>>>>>> c015ba62cd23a92cebddb56898a5267c40c9449e
+=======
+                object obj = ResourceManager.GetObject("gradePequena", resourceCulture);
+>>>>>>> parent of 3ccc41e... tratamento de esgoto
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -452,9 +319,9 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap planta {
+        internal static System.Drawing.Bitmap rede {
             get {
-                object obj = ResourceManager.GetObject("planta", resourceCulture);
+                object obj = ResourceManager.GetObject("rede", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -462,9 +329,9 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap rede {
+        internal static System.Drawing.Bitmap redePequena {
             get {
-                object obj = ResourceManager.GetObject("rede", resourceCulture);
+                object obj = ResourceManager.GetObject("redePequena", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
