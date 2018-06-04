@@ -186,6 +186,7 @@ namespace ProjetoPraticaII.Properties {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -217,6 +218,8 @@ namespace ProjetoPraticaII.Properties {
 =======
 >>>>>>> parent of 3ccc41e... tratamento de esgoto
 >>>>>>> d4881ddf6bed04c12c8c9e50edabf733b4e797b6
+=======
+>>>>>>> parent of 3ccc41e... tratamento de esgoto
 =======
 >>>>>>> parent of 3ccc41e... tratamento de esgoto
         internal static System.Drawing.Bitmap entradaEsgoto1_0 {
@@ -270,6 +273,7 @@ namespace ProjetoPraticaII.Properties {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -292,6 +296,9 @@ namespace ProjetoPraticaII.Properties {
                 object obj = ResourceManager.GetObject("gradePequena", resourceCulture);
 >>>>>>> parent of 3ccc41e... tratamento de esgoto
 >>>>>>> d4881ddf6bed04c12c8c9e50edabf733b4e797b6
+=======
+                object obj = ResourceManager.GetObject("gradePequena", resourceCulture);
+>>>>>>> parent of 3ccc41e... tratamento de esgoto
 =======
                 object obj = ResourceManager.GetObject("gradePequena", resourceCulture);
 >>>>>>> parent of 3ccc41e... tratamento de esgoto
