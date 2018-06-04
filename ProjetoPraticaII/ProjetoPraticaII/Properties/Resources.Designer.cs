@@ -323,6 +323,7 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap divisorias {
             get {
                 object obj = ResourceManager.GetObject("divisorias", resourceCulture);
@@ -333,9 +334,17 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+=======
+<<<<<<< HEAD
+        internal static System.Drawing.Bitmap fazenda_SetaMenuDireita {
+            get {
+                object obj = ResourceManager.GetObject("fazenda_SetaMenuDireita", resourceCulture);
+=======
+>>>>>>> c015ba62cd23a92cebddb56898a5267c40c9449e
         internal static System.Drawing.Bitmap entradaEsgoto1_0 {
             get {
                 object obj = ResourceManager.GetObject("entradaEsgoto1_0", resourceCulture);
+>>>>>>> c27786335c652342d451fbdd04e45dabf846b1b1
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -343,6 +352,11 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
+        internal static System.Drawing.Bitmap fazenda_SetaMenuEsquerda {
+            get {
+                object obj = ResourceManager.GetObject("fazenda_SetaMenuEsquerda", resourceCulture);
+=======
         internal static System.Drawing.Bitmap entradaEsgoto1_1 {
             get {
                 object obj = ResourceManager.GetObject("entradaEsgoto1_1", resourceCulture);
@@ -375,7 +389,12 @@ namespace ProjetoPraticaII.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap grade {
             get {
+<<<<<<< HEAD
                 object obj = ResourceManager.GetObject("grade", resourceCulture);
+=======
+                object obj = ResourceManager.GetObject("gradePequena", resourceCulture);
+>>>>>>> c27786335c652342d451fbdd04e45dabf846b1b1
+>>>>>>> c015ba62cd23a92cebddb56898a5267c40c9449e
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
