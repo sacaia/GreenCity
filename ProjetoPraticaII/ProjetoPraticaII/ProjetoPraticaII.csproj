@@ -270,6 +270,7 @@
 <<<<<<< HEAD
 =======
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <None Include="Resources\bactéria.jpg" />
   </ItemGroup>
@@ -322,5 +323,7 @@
     <None Include="Resources\biofiltroFinal.jpg" />
 >>>>>>> parent of 80242d0... Merge branch 'master' of https://github.com/sacaia/projetoPratica2
   </ItemGroup>
+=======
+>>>>>>> parent of 3ccc41e... tratamento de esgoto
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
