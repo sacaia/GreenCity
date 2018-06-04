@@ -185,6 +185,7 @@ namespace ProjetoPraticaII.Properties {
         /// </summary>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap divisorias {
             get {
                 object obj = ResourceManager.GetObject("divisorias", resourceCulture);
@@ -202,6 +203,8 @@ namespace ProjetoPraticaII.Properties {
                 object obj = ResourceManager.GetObject("fazenda_SetaMenuDireita", resourceCulture);
 =======
 >>>>>>> c015ba62cd23a92cebddb56898a5267c40c9449e
+=======
+>>>>>>> parent of 3ccc41e... tratamento de esgoto
 =======
 >>>>>>> parent of 3ccc41e... tratamento de esgoto
         internal static System.Drawing.Bitmap entradaEsgoto1_0 {
@@ -254,11 +257,15 @@ namespace ProjetoPraticaII.Properties {
             get {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 object obj = ResourceManager.GetObject("grade", resourceCulture);
 =======
                 object obj = ResourceManager.GetObject("gradePequena", resourceCulture);
 >>>>>>> c27786335c652342d451fbdd04e45dabf846b1b1
 >>>>>>> c015ba62cd23a92cebddb56898a5267c40c9449e
+=======
+                object obj = ResourceManager.GetObject("gradePequena", resourceCulture);
+>>>>>>> parent of 3ccc41e... tratamento de esgoto
 =======
                 object obj = ResourceManager.GetObject("gradePequena", resourceCulture);
 >>>>>>> parent of 3ccc41e... tratamento de esgoto
