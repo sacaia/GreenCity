@@ -148,6 +148,13 @@
   <data name="decantaçãoPequeno" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\decantaçãoPequeno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+<<<<<<< HEAD
+  <data name="fazenda_SetaMenuDireita" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fazenda_SetaMenuDireita.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fazenda_SetaMenuEsquerda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fazenda_SetaMenuEsquerda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+=======
   <data name="biofiltroPequeno" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\biofiltroPequeno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -237,5 +244,6 @@
   </data>
   <data name="tratamentoLuzUVPequena" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tratamentoLuzUVPequena.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+>>>>>>> c27786335c652342d451fbdd04e45dabf846b1b1
   </data>
 </root>

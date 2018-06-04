@@ -26,5 +26,16 @@ namespace fazenda
         private void Silo_FormClosing(object sender, FormClosingEventArgs e)
         {
         }
+
+       
+
+        private void Silo_Shown(object sender, EventArgs e)
+        {
+            frmPlantacaoSementes frmPlantaca = new frmPlantacaoSementes();
+            lb_qtdcapim.Text = "Capim : " + frmPlantaca.PegaSementes1();
+            lb_qtdcafe.Text = "Café : " + frmPlantaca.PegaSementes2();
+            lb_qtdmilho.Text = "Milho : " + frmPlantaca.PegaSementes3();
+            lb_qtdtrigo.Text = "Trigo : " + frmPlantaca.PegaSementes4();
+        }
     }
 }

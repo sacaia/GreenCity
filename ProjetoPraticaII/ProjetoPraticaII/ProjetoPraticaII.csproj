@@ -217,6 +217,12 @@
     <None Include="Resources\bacteriaAnaerobicaPequeno.jpg" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <None Include="Resources\fazenda_SetaMenuDireita.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fazenda_SetaMenuEsquerda.png" />
+=======
     <None Include="Resources\Logo2.3.png" />
   </ItemGroup>
   <ItemGroup>
@@ -260,6 +266,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ampulheta.jpg" />
+>>>>>>> c27786335c652342d451fbdd04e45dabf846b1b1
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bactéria.jpg" />
