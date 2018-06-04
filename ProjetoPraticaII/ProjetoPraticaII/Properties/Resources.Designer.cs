@@ -63,6 +63,16 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap aduboQuimico {
+            get {
+                object obj = ResourceManager.GetObject("aduboQuimico", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap aguaReciclavelPequena {
             get {
                 object obj = ResourceManager.GetObject("aguaReciclavelPequena", resourceCulture);
@@ -126,6 +136,16 @@ namespace ProjetoPraticaII.Properties {
         internal static System.Drawing.Bitmap arenacaoFinal {
             get {
                 object obj = ResourceManager.GetObject("arenacaoFinal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap baciaHidrografica {
+            get {
+                object obj = ResourceManager.GetObject("baciaHidrografica", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -346,6 +366,16 @@ namespace ProjetoPraticaII.Properties {
         internal static System.Drawing.Bitmap divisorias {
             get {
                 object obj = ResourceManager.GetObject("divisorias", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap duvida {
+            get {
+                object obj = ResourceManager.GetObject("duvida", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

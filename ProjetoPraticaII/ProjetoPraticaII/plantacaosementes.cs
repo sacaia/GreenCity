@@ -16,7 +16,7 @@ namespace fazenda
         frmMenuFazenda frmMenu1;
         int tempo = 0;
         int idade = 0;
-        bool bicho = false;
+    
         String  plantaescolhida="";
         bool sementeplantada = false;
         int crescendo = 0;
@@ -97,23 +97,7 @@ namespace fazenda
                             DragDropEffects.Move);
         }
 
-        private void bichotimer_Tick(object sender, EventArgs e)
-        {
-            if ((idade==2)&&(tempo > 10))
-            {
-                bicho = true;
-                pictureBox1.BackgroundImage = planta.Images[4];
-                tempo = 0;
-                hint_plantacao.SetToolTip(pb_1, "A planta precisa de inseticida");
-
-
-            }
-            if (idade == 2){
-                tempo++;
-                
-            }
-            
-        }
+       
 
         private void plantacao(PictureBox picBox, DragEventArgs e)
         {
@@ -135,19 +119,8 @@ namespace fazenda
 
 
             }
-            if ((e.Data.GetData(DataFormats.Text).ToString() == "inseticida") && (idade == 2)&&(bicho==true))
-            {
-                picBox.BackgroundImage = planta.Images[1];
-                
-                bicho = false;
-
-
-            }
-            else
-            {
-                if (e.Data.GetData(DataFormats.Text).ToString() == "inseticida")
-                    tempo = 0;
-            }
+            
+            
 
             if((idade==3)&& (e.Data.GetData(DataFormats.Text).ToString() == "adubo"))
             {
@@ -212,7 +185,7 @@ namespace fazenda
                 hint_plantacao.SetToolTip(pb_1, "A planta está crescendo!");
             }
             else
-            if ((idade == 2) && (pb_1.Value>=100)&&(bicho=false))
+            if ((idade == 2) && (pb_1.Value>=100))
             {
                 hint_plantacao.SetToolTip(pb_1, "A planta precisa de adubo e ou água");
 
@@ -330,5 +303,15 @@ namespace fazenda
         {
             this.Cursor = Cursors.Default;
         }
-    }
+        int paginaAtual = 1;
+        private void brn_explicacaoProximo_Click(object sender, EventArgs e)
+        {
+            paginaAtual++;
+            btn_explicacoVoltar.Enabled = true;
+            lb_explicacao.Text = "De maneira geral, o uso de fertilizantes inorgânicos acarreta problemas para o meio ambiente, dentre eles a contaminação de lençóis freáticos, rios e lagos. Muitos fertilizantes inorgânicos levam poluentes orgânicos persistentes , que contaminam os animais e plantas que vivem na água. Outros animais ou o próprio ser humano podem se contaminar ao beber a água ou comer animais intoxicados      A contaminação da água também pode levar à sua eutrofização. Esse é um processo em que, segundo estudos, os compostos, ao chegarem à rios, lagos e zonas costeiras favorecem o crescimento e o aumento de número de algas, que por sua vez levam à morte diversos organismos. Alguns ambientalistas afirmam que esse processo gera 'zonas mortas' nos ambientes aquáticos, sem qualquer tipo de vida além das algas.";
+
+
+        }
+
+
 }

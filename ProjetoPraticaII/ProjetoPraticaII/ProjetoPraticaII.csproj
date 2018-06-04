@@ -325,5 +325,17 @@
   <ItemGroup>
     <None Include="Resources\bactéria.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question-38595_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duvida.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aduboQuimico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baciaHidrografica.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
