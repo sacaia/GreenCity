@@ -261,5 +261,56 @@
   <ItemGroup>
     <None Include="Resources\ampulheta.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bactéria.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caixaDeGordura1.0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caixaDeGordura1.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caixaDeGordura1.2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\divisorias.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caixaDeGorduraFinal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entradaEsgotoFinal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arenacaoFinal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\biodigestor1.0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\biodigestor1.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\biodigestor1.2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\planta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\biodigestorFinal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\biofiltro1.0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\biofiltro1.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\biofiltro1.2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\biofiltroFinal.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

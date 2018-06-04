@@ -166,8 +166,53 @@
   <data name="arenacao1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\arenacao1.2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="arenacaoFinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arenacaoFinal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bactéria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bactéria.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="biodigestor1_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\biodigestor1.0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="biodigestor1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\biodigestor1.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="biodigestor1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\biodigestor1.2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="biodigestorFinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\biodigestorFinal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="biofiltro1_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\biofiltro1.0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="biofiltro1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\biofiltro1.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="biofiltro1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\biofiltro1.2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="biofiltroFinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\biofiltroFinal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caixaDeGordura1_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\caixaDeGordura1.0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caixaDeGordura1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\caixaDeGordura1.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caixaDeGordura1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\caixaDeGordura1.2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caixaDeGorduraFinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\caixaDeGorduraFinal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="candidaPequena" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\candidaPequena.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="divisorias" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\divisorias.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="entradaEsgoto1_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\entradaEsgoto1.0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,16 +223,16 @@
   <data name="entradaEsgoto1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\entradaEsgoto1.2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grade" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="entradaEsgotoFinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\entradaEsgotoFinal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="gradePequena" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="grade" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gradePequena.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rede" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rede.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="planta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\planta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="redePequena" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="rede" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\redePequena.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tratamentoLuzUVPequena" type="System.Resources.ResXFileRef, System.Windows.Forms">
