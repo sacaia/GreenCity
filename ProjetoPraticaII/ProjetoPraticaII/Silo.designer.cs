@@ -53,7 +53,7 @@
             this.lb_qtdcapim.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_qtdcapim.Location = new System.Drawing.Point(87, 84);
             this.lb_qtdcapim.Name = "lb_qtdcapim";
-            this.lb_qtdcapim.Size = new System.Drawing.Size(67, 19);
+            this.lb_qtdcapim.Size = new System.Drawing.Size(66, 17);
             this.lb_qtdcapim.TabIndex = 1;
             this.lb_qtdcapim.Text = "Capim : 0";
             // 
@@ -63,7 +63,7 @@
             this.lb_qtdcafe.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_qtdcafe.Location = new System.Drawing.Point(87, 112);
             this.lb_qtdcafe.Name = "lb_qtdcafe";
-            this.lb_qtdcafe.Size = new System.Drawing.Size(56, 19);
+            this.lb_qtdcafe.Size = new System.Drawing.Size(55, 17);
             this.lb_qtdcafe.TabIndex = 2;
             this.lb_qtdcafe.Text = "Café : 0";
             // 
@@ -73,7 +73,7 @@
             this.lb_qtdmilho.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_qtdmilho.Location = new System.Drawing.Point(87, 139);
             this.lb_qtdmilho.Name = "lb_qtdmilho";
-            this.lb_qtdmilho.Size = new System.Drawing.Size(59, 19);
+            this.lb_qtdmilho.Size = new System.Drawing.Size(58, 17);
             this.lb_qtdmilho.TabIndex = 3;
             this.lb_qtdmilho.Text = "Milho: 0";
             // 
@@ -83,7 +83,7 @@
             this.lb_qtdtrigo.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_qtdtrigo.Location = new System.Drawing.Point(87, 168);
             this.lb_qtdtrigo.Name = "lb_qtdtrigo";
-            this.lb_qtdtrigo.Size = new System.Drawing.Size(59, 19);
+            this.lb_qtdtrigo.Size = new System.Drawing.Size(58, 17);
             this.lb_qtdtrigo.TabIndex = 4;
             this.lb_qtdtrigo.Text = "Trigo : 0";
             // 
@@ -103,7 +103,7 @@
             this.lb_dinheiro.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_dinheiro.Location = new System.Drawing.Point(87, 215);
             this.lb_dinheiro.Name = "lb_dinheiro";
-            this.lb_dinheiro.Size = new System.Drawing.Size(92, 20);
+            this.lb_dinheiro.Size = new System.Drawing.Size(92, 19);
             this.lb_dinheiro.TabIndex = 7;
             this.lb_dinheiro.Text = "Dinheiro : 0";
             // 
@@ -124,8 +124,6 @@
             this.Name = "Silo";
             this.Text = " ";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Silo_FormClosing);
-        
-            this.Shown += new System.EventHandler(this.Silo_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

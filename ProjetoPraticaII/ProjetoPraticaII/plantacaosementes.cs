@@ -22,31 +22,11 @@ namespace fazenda
         int crescendo = 0;
         int agua = 0;
         bool colheita=false;
-         int[] qtdsementes = new int[5];
+        int[] qtdsementes = new int[5];
 
         public frmPlantacaoSementes()
         {
             InitializeComponent();
-        }
-
-       
-        public String PegaSementes1()
-        {
-            return qtdsementes[0].ToString();
-        }
-
-        public String PegaSementes2()
-        {
-            return qtdsementes[1].ToString();
-        }
-
-        public String PegaSementes3()
-        {
-            return qtdsementes[2].ToString();
-        }
-        public String PegaSementes4()
-        {
-            return qtdsementes[3].ToString();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -104,8 +84,7 @@ namespace fazenda
                 bicho = true;
                 pictureBox1.BackgroundImage = planta.Images[4];
                 tempo = 0;
-                hint_plantacao.SetToolTip(pb_1, "A planta precisa de inseticida");
-
+                
 
             }
             if (idade == 2){
@@ -153,7 +132,6 @@ namespace fazenda
             {
                 idade = 4;
                 pictureBox1.BackgroundImage = planta.Images[3];
-                
                 colheita = true;
             }
         }
@@ -191,9 +169,8 @@ namespace fazenda
             }
             else
             {
-                if(idade==0)
+             
                 MessageBox.Show("Escolha uma semente");
-              
             }
         }
 
@@ -207,16 +184,12 @@ namespace fazenda
             }else
                 if ((idade == 2)&&(crescendo<10))
             {
-                pb_1.PerformStep();
+                pb_1.Value += 10;
                 crescendo++;
-                hint_plantacao.SetToolTip(pb_1, "A planta está crescendo!");
-            }
-            else
-            if ((idade == 2) && (pb_1.Value>=100)&&(bicho=false))
+            }else
             {
-                hint_plantacao.SetToolTip(pb_1, "A planta precisa de adubo e ou água");
 
-
+                //pb_1.Onpa
             }
 
 
@@ -236,7 +209,7 @@ namespace fazenda
             //1=cafe
             //2=milho
             //3=trigo
-            MessageBox.Show("Você colheu : "+(hint_plantacao.GetToolTip(pictureBox1)));
+            MessageBox.Show(hint_plantacao.GetToolTip(pictureBox1));
             if (colheita == true)
             {
                 colheita = false;
@@ -281,54 +254,6 @@ namespace fazenda
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
 
-        }
-
-        private void pb_botaomenu_MouseEnter(object sender, EventArgs e)
-        {
-            this.Cursor = Cursors.Hand;
-        }
-
-        private void pb_botaomenu_Click(object sender, EventArgs e)
-        {
-            if (pb_botaomenu.Location.X < 100) {
-                pb_botaomenu.Visible = false;
-                for (int i = 0; i < 50; i++)
-                {
-                    System.Threading.Thread.Sleep(1);  
-                    panelMenu.Refresh();
-                    Size tamanho = new Size(i*4, 592);
-                    panelMenu.Size = tamanho;
-                }
-                pb_botaomenu.Location = new Point(180, 200);
-                pb_botaomenu.Visible = true;
-                pb_botaomenu.Image =  ProjetoPraticaII.Properties.Resources.fazenda_SetaMenuEsquerda;
-            }
-            else
-            {
-                Size tamanho = new Size(1, 592);
-                panelMenu.Size = tamanho;
-                pb_botaomenu.Location = new Point(1, 200);
-                pb_botaomenu.Image = ProjetoPraticaII.Properties.Resources.fazenda_SetaMenuDireita;
-            }
-
-        }
-
-        private void pb_botaomenu_MouseLeave(object sender, EventArgs e)
-        {
-            this.Cursor = Cursors.Default;
-        }
-
-        private void pictureBox1_MouseEnter(object sender, EventArgs e)
-        {
-            if (colheita == true)
-            {
-                this.Cursor = Cursors.Hand;
-            }
-        }
-
-        private void pictureBox1_MouseLeave(object sender, EventArgs e)
-        {
-            this.Cursor = Cursors.Default;
         }
     }
 }
