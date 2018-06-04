@@ -36,21 +36,17 @@
             this.hint_plantacao = new System.Windows.Forms.ToolTip(this.components);
             this.plantacresce = new System.Windows.Forms.Timer(this.components);
             this.lb_sementeescolhida = new System.Windows.Forms.Label();
-            this.pb_1 = new System.Windows.Forms.ProgressBar();
-            this.pb_botaomenu = new System.Windows.Forms.PictureBox();
             this.pb_adubo = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panelMenu = new System.Windows.Forms.Panel();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_botaomenu)).BeginInit();
+            this.pb_1 = new System.Windows.Forms.ProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.pb_adubo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panelMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // planta
@@ -101,34 +97,11 @@
             this.lb_sementeescolhida.TabIndex = 5;
             this.lb_sementeescolhida.Text = "Semente Escolhida:";
             // 
-            // pb_1
-            // 
-            this.pb_1.BackColor = System.Drawing.SystemColors.Control;
-            this.pb_1.Location = new System.Drawing.Point(614, 192);
-            this.pb_1.Name = "pb_1";
-            this.pb_1.Size = new System.Drawing.Size(159, 23);
-            this.pb_1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
-            this.pb_1.TabIndex = 7;
-            // 
-            // pb_botaomenu
-            // 
-            this.pb_botaomenu.BackColor = System.Drawing.Color.Transparent;
-            this.pb_botaomenu.Image = global::ProjetoPraticaII.Properties.Resources.fazenda_SetaMenuDireita;
-            this.pb_botaomenu.Location = new System.Drawing.Point(1, 200);
-            this.pb_botaomenu.Name = "pb_botaomenu";
-            this.pb_botaomenu.Size = new System.Drawing.Size(76, 88);
-            this.pb_botaomenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_botaomenu.TabIndex = 9;
-            this.pb_botaomenu.TabStop = false;
-            this.pb_botaomenu.Click += new System.EventHandler(this.pb_botaomenu_Click);
-            this.pb_botaomenu.MouseEnter += new System.EventHandler(this.pb_botaomenu_MouseEnter);
-            this.pb_botaomenu.MouseLeave += new System.EventHandler(this.pb_botaomenu_MouseLeave);
-            // 
             // pb_adubo
             // 
             this.pb_adubo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pb_adubo.BackgroundImage")));
             this.pb_adubo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pb_adubo.Location = new System.Drawing.Point(32, 440);
+            this.pb_adubo.Location = new System.Drawing.Point(31, 451);
             this.pb_adubo.Name = "pb_adubo";
             this.pb_adubo.Size = new System.Drawing.Size(139, 126);
             this.pb_adubo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -140,7 +113,7 @@
             // 
             this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(32, 287);
+            this.pictureBox4.Location = new System.Drawing.Point(31, 298);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(139, 126);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -150,10 +123,9 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(32, 146);
+            this.pictureBox3.Location = new System.Drawing.Point(31, 157);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(139, 126);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -165,7 +137,7 @@
             // 
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(32, 14);
+            this.pictureBox2.Location = new System.Drawing.Point(31, 25);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(139, 126);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -185,48 +157,41 @@
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             this.pictureBox1.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox1_DragDrop);
             this.pictureBox1.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox1_DragEnter);
-            this.pictureBox1.MouseEnter += new System.EventHandler(this.pictureBox1_MouseEnter);
-            this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
             this.pictureBox1.MouseHover += new System.EventHandler(this.pictureBox1_MouseHover);
             // 
-            // panelMenu
+            // pb_1
             // 
-            this.panelMenu.Controls.Add(this.pictureBox4);
-            this.panelMenu.Controls.Add(this.pictureBox2);
-            this.panelMenu.Controls.Add(this.pictureBox3);
-            this.panelMenu.Controls.Add(this.pb_adubo);
-            this.panelMenu.Location = new System.Drawing.Point(0, 0);
-            this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(1, 592);
-            this.panelMenu.TabIndex = 10;
+            this.pb_1.BackColor = System.Drawing.SystemColors.Control;
+            this.pb_1.Location = new System.Drawing.Point(614, 192);
+            this.pb_1.Name = "pb_1";
+            this.pb_1.Size = new System.Drawing.Size(159, 23);
+            this.pb_1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.pb_1.TabIndex = 7;
             // 
             // frmPlantacaoSementes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(821, 589);
-            this.Controls.Add(this.pb_botaomenu);
-            this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.pb_1);
+            this.Controls.Add(this.pb_adubo);
             this.Controls.Add(this.lb_sementeescolhida);
             this.Controls.Add(this.btn_mudarsemente);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.DoubleBuffered = true;
-            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "frmPlantacaoSementes";
             this.Text = " ";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pb_botaomenu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_adubo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panelMenu.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -246,8 +211,6 @@
         private System.Windows.Forms.Label lb_sementeescolhida;
         private System.Windows.Forms.PictureBox pb_adubo;
         private System.Windows.Forms.ProgressBar pb_1;
-        private System.Windows.Forms.PictureBox pb_botaomenu;
-        private System.Windows.Forms.Panel panelMenu;
     }
 }
 

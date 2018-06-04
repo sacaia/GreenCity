@@ -13,7 +13,6 @@ namespace fazenda
 {
     public partial class frmMenuFazenda : Form
     {
-        private Point ultimoPonto;
         public frmMenuFazenda()
         {
             InitializeComponent();
@@ -38,7 +37,7 @@ namespace fazenda
             imagem.Size = new Size(((pb_celeiro.Size.Width) + (pb_celeiro.Size.Width / 10)), ((pb_celeiro.Size.Height) + (pb_celeiro.Size.Height / 10)));
         }
 
-        
+        private Point ultimoPonto;
         private void pb_celeiro_MouseEnter(object sender, EventArgs e)
         {
             PictureBox pb = (PictureBox)sender;
@@ -74,7 +73,6 @@ namespace fazenda
             frmSilo.FormClosed += (s, arg) => this.Show();
             frmSilo.Show();
             this.Hide();
-
         }
 
         private void frmMenuFazenda_FormClosing(object sender, FormClosingEventArgs e)

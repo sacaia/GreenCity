@@ -223,6 +223,7 @@
   <ItemGroup>
     <None Include="Resources\fazenda_SetaMenuEsquerda.png" />
 =======
+>>>>>>> parent of 80242d0... Merge branch 'master' of https://github.com/sacaia/projetoPratica2
     <None Include="Resources\Logo2.3.png" />
   </ItemGroup>
   <ItemGroup>
@@ -266,8 +267,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ampulheta.jpg" />
->>>>>>> c27786335c652342d451fbdd04e45dabf846b1b1
+<<<<<<< HEAD
+=======
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <None Include="Resources\bactéria.jpg" />
   </ItemGroup>
@@ -318,6 +321,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\biofiltroFinal.jpg" />
+>>>>>>> parent of 80242d0... Merge branch 'master' of https://github.com/sacaia/projetoPratica2
   </ItemGroup>
+=======
+>>>>>>> parent of 3ccc41e... tratamento de esgoto
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
