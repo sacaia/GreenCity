@@ -337,5 +337,23 @@
   <ItemGroup>
     <None Include="Resources\baciaHidrografica.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\terciario1.0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\terciario1.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\terciario1.2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\terciarioFinal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Final.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

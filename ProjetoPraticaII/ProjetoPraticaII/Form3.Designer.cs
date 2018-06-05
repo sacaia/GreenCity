@@ -58,7 +58,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProjetoPraticaII.Properties.Resources.MapaGrande;
-            this.ClientSize = new System.Drawing.Size(792, 598);
+            this.ClientSize = new System.Drawing.Size(792, 597);
             this.Controls.Add(this.btnEsgoto);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -67,6 +67,7 @@
             this.MaximumSize = new System.Drawing.Size(808, 636);
             this.MinimumSize = new System.Drawing.Size(808, 636);
             this.Name = "frmPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Green City";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmPrincipal_FormClosing);
             this.Load += new System.EventHandler(this.frmPrincipal_Load);

@@ -353,6 +353,16 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap close {
+            get {
+                object obj = ResourceManager.GetObject("close", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap decantaçãoPequeno {
             get {
                 object obj = ResourceManager.GetObject("decantaçãoPequeno", resourceCulture);
@@ -473,6 +483,16 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Final {
+            get {
+                object obj = ResourceManager.GetObject("Final", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gradePequena {
             get {
                 object obj = ResourceManager.GetObject("gradePequena", resourceCulture);
@@ -536,6 +556,46 @@ namespace ProjetoPraticaII.Properties {
         internal static System.Drawing.Bitmap redePequena {
             get {
                 object obj = ResourceManager.GetObject("redePequena", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap terciario1_0 {
+            get {
+                object obj = ResourceManager.GetObject("terciario1_0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap terciario1_1 {
+            get {
+                object obj = ResourceManager.GetObject("terciario1_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap terciario1_2 {
+            get {
+                object obj = ResourceManager.GetObject("terciario1_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap terciarioFinal {
+            get {
+                object obj = ResourceManager.GetObject("terciarioFinal", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

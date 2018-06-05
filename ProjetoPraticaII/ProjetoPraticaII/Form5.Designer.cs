@@ -37,7 +37,7 @@
             this.btnProx = new System.Windows.Forms.Button();
             this.lbTexto = new System.Windows.Forms.Label();
             this.pbImagem = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pnJogo = new System.Windows.Forms.Panel();
             this.pbItem3 = new System.Windows.Forms.PictureBox();
             this.pbItem2 = new System.Windows.Forms.PictureBox();
             this.pbItem1 = new System.Windows.Forms.PictureBox();
@@ -45,7 +45,7 @@
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.pnIntroducao.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbImagem)).BeginInit();
-            this.panel1.SuspendLayout();
+            this.pnJogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbItem3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbItem2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbItem1)).BeginInit();
@@ -72,7 +72,7 @@
             this.pnIntroducao.Controls.Add(this.lbTexto);
             this.pnIntroducao.Controls.Add(this.pbImagem);
             this.pnIntroducao.Controls.Add(this.lbTitulo);
-            this.pnIntroducao.Location = new System.Drawing.Point(12, 12);
+            this.pnIntroducao.Location = new System.Drawing.Point(32, 8);
             this.pnIntroducao.Name = "pnIntroducao";
             this.pnIntroducao.Size = new System.Drawing.Size(406, 363);
             this.pnIntroducao.TabIndex = 1;
@@ -127,17 +127,17 @@
             this.pbImagem.TabIndex = 1;
             this.pbImagem.TabStop = false;
             // 
-            // panel1
+            // pnJogo
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(228)))), ((int)(((byte)(180)))));
-            this.panel1.Controls.Add(this.pbItem3);
-            this.panel1.Controls.Add(this.pbItem2);
-            this.panel1.Controls.Add(this.pbItem1);
-            this.panel1.Controls.Add(this.pbMain);
-            this.panel1.Location = new System.Drawing.Point(424, 12);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(455, 363);
-            this.panel1.TabIndex = 2;
+            this.pnJogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(228)))), ((int)(((byte)(180)))));
+            this.pnJogo.Controls.Add(this.pbItem3);
+            this.pnJogo.Controls.Add(this.pbItem2);
+            this.pnJogo.Controls.Add(this.pbItem1);
+            this.pnJogo.Controls.Add(this.pbMain);
+            this.pnJogo.Location = new System.Drawing.Point(12, 12);
+            this.pnJogo.Name = "pnJogo";
+            this.pnJogo.Size = new System.Drawing.Size(455, 363);
+            this.pnJogo.TabIndex = 2;
             // 
             // pbItem3
             // 
@@ -192,17 +192,18 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(891, 399);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(487, 387);
+            this.Controls.Add(this.pnJogo);
             this.Controls.Add(this.pnIntroducao);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmTratamentoDeEsgoto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tratamento de esgoto";
             this.Load += new System.EventHandler(this.frmTratamentoDeEsgoto_Load);
             this.pnIntroducao.ResumeLayout(false);
             this.pnIntroducao.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbImagem)).EndInit();
-            this.panel1.ResumeLayout(false);
+            this.pnJogo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbItem3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbItem2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbItem1)).EndInit();
@@ -220,7 +221,7 @@
         private System.Windows.Forms.Button btnAnt;
         private System.Windows.Forms.Button btnProx;
         private System.Windows.Forms.Button btnJogar;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnJogo;
         private System.Windows.Forms.PictureBox pbMain;
         private System.Windows.Forms.PictureBox pbItem3;
         private System.Windows.Forms.PictureBox pbItem2;

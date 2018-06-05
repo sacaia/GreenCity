@@ -10,26 +10,26 @@ using System.Windows.Forms;
 
 namespace fazenda
 {
-    
+
     public partial class frmPlantacaoSementes : Form
     {
         frmMenuFazenda frmMenu1;
         int tempo = 0;
         int idade = 0;
-    
-        String  plantaescolhida="";
+
+        String plantaescolhida = "";
         bool sementeplantada = false;
         int crescendo = 0;
         int agua = 0;
-        bool colheita=false;
-         int[] qtdsementes = new int[5];
+        bool colheita = false;
+        int[] qtdsementes = new int[5];
 
         public frmPlantacaoSementes()
         {
             InitializeComponent();
         }
 
-       
+
         public String PegaSementes1()
         {
             return qtdsementes[0].ToString();
@@ -53,7 +53,7 @@ namespace fazenda
         {
             pictureBox1.AllowDrop = true;
             pictureBox2.AllowDrop = true;
-            for (int i = 0; i< qtdsementes.Length; i++)
+            for (int i = 0; i < qtdsementes.Length; i++)
             {
                 qtdsementes[i] = 0;
             }
@@ -61,7 +61,7 @@ namespace fazenda
 
         private void pictureBox2_MouseDown(object sender, MouseEventArgs e)
         {
-            
+
             pictureBox1.DoDragDrop("agua",
                 DragDropEffects.Copy |
                 DragDropEffects.Move);
@@ -78,15 +78,15 @@ namespace fazenda
 
         private void pictureBox1_DragEnter(object sender, DragEventArgs e)
         {
-           
-                e.Effect = DragDropEffects.Copy;
-           
+
+            e.Effect = DragDropEffects.Copy;
+
         }
 
         private void pictureBox1_DragDrop(object sender, DragEventArgs e)
         {
 
-            plantacao(pictureBox1,e);
+            plantacao(pictureBox1, e);
 
         }
 
@@ -97,36 +97,36 @@ namespace fazenda
                             DragDropEffects.Move);
         }
 
-       
+
 
         private void plantacao(PictureBox picBox, DragEventArgs e)
         {
-            if(e.Data.GetData(DataFormats.Text).ToString() == "agua")
+            if (e.Data.GetData(DataFormats.Text).ToString() == "agua")
             {
                 agua++;
             }
-            if ((idade == 0)&&!(plantaescolhida==""))
+            if ((idade == 0) && !(plantaescolhida == ""))
             {
                 sementeplantada = true;
             }
 
 
-            if ((e.Data.GetData(DataFormats.Text).ToString() == "agua") && (idade < 2)&&(sementeplantada==true))
+            if ((e.Data.GetData(DataFormats.Text).ToString() == "agua") && (idade < 2) && (sementeplantada == true))
             {
-               picBox.BackgroundImage = planta.Images[1];
+                picBox.BackgroundImage = planta.Images[1];
                 idade++;
 
 
 
             }
-            
-            
 
-            if((idade==3)&& (e.Data.GetData(DataFormats.Text).ToString() == "adubo"))
+
+
+            if ((idade == 3) && (e.Data.GetData(DataFormats.Text).ToString() == "adubo"))
             {
                 idade = 4;
                 pictureBox1.BackgroundImage = planta.Images[3];
-                
+
                 colheita = true;
             }
         }
@@ -139,11 +139,11 @@ namespace fazenda
             this.Hide();
         }
 
-      public void escolhaSemente(String semente)
+        public void escolhaSemente(String semente)
         {
             this.plantaescolhida = semente;
             lb_sementeescolhida.Text = "Semente Escolhida: " + semente;
-      
+
 
         }
 
@@ -155,7 +155,7 @@ namespace fazenda
 
         private void pictureBox4_MouseDown(object sender, MouseEventArgs e)
         {
-            if ((plantaescolhida != "")&&(idade==0))
+            if ((plantaescolhida != "") && (idade == 0))
             {
                 pictureBox1.DoDragDrop(plantaescolhida,
                               DragDropEffects.Copy |
@@ -164,28 +164,29 @@ namespace fazenda
             }
             else
             {
-                if(idade==0)
-                MessageBox.Show("Escolha uma semente");
-              
+                if (idade == 0)
+                    MessageBox.Show("Escolha uma semente");
+
             }
         }
 
         private void plantacresce_Tick(object sender, EventArgs e)
         {
-            if ((idade == 2)&&(crescendo>=10)&&(agua>=3))
+            if ((idade == 2) && (crescendo >= 10) && (agua >= 3))
             {
                 pb_1.Value = 0;
                 idade = 3;
                 pictureBox1.BackgroundImage = planta.Images[2];
-            }else
-                if ((idade == 2)&&(crescendo<10))
+            }
+            else
+                if ((idade == 2) && (crescendo < 10))
             {
                 pb_1.PerformStep();
                 crescendo++;
                 hint_plantacao.SetToolTip(pb_1, "A planta está crescendo!");
             }
             else
-            if ((idade == 2) && (pb_1.Value>=100))
+            if ((idade == 2) && (pb_1.Value >= 100))
             {
                 hint_plantacao.SetToolTip(pb_1, "A planta precisa de adubo e ou água");
 
@@ -209,7 +210,7 @@ namespace fazenda
             //1=cafe
             //2=milho
             //3=trigo
-            MessageBox.Show("Você colheu : "+(hint_plantacao.GetToolTip(pictureBox1)));
+            MessageBox.Show("Você colheu : " + (hint_plantacao.GetToolTip(pictureBox1)));
             if (colheita == true)
             {
                 colheita = false;
@@ -219,20 +220,21 @@ namespace fazenda
                 if ((hint_plantacao.GetToolTip(pictureBox1) == "capim"))
                 {
 
-                    qtdsementes[0]+=10;
+                    qtdsementes[0] += 10;
 
-                }else
+                }
+                else
                 if ((hint_plantacao.GetToolTip(pictureBox1) == "cafe"))
                 {
 
-                    qtdsementes[1]+=10;
+                    qtdsementes[1] += 10;
 
                 }
                 else
                     if ((hint_plantacao.GetToolTip(pictureBox1) == "milho"))
                 {
 
-                    qtdsementes[2]+=10;
+                    qtdsementes[2] += 10;
 
                 }
                 else
@@ -263,18 +265,19 @@ namespace fazenda
 
         private void pb_botaomenu_Click(object sender, EventArgs e)
         {
-            if (pb_botaomenu.Location.X < 100) {
+            if (pb_botaomenu.Location.X < 100)
+            {
                 pb_botaomenu.Visible = false;
                 for (int i = 0; i < 50; i++)
                 {
-                    System.Threading.Thread.Sleep(1);  
+                    System.Threading.Thread.Sleep(1);
                     panelMenu.Refresh();
-                    Size tamanho = new Size(i*4, 592);
+                    Size tamanho = new Size(i * 4, 592);
                     panelMenu.Size = tamanho;
                 }
                 pb_botaomenu.Location = new Point(180, 200);
                 pb_botaomenu.Visible = true;
-                pb_botaomenu.Image =  ProjetoPraticaII.Properties.Resources.fazenda_SetaMenuEsquerda;
+                pb_botaomenu.Image = ProjetoPraticaII.Properties.Resources.fazenda_SetaMenuEsquerda;
             }
             else
             {
@@ -313,5 +316,5 @@ namespace fazenda
 
         }
 
-
+    }
 }

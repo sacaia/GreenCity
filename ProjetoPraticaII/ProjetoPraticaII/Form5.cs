@@ -23,6 +23,7 @@ namespace ProjetoPraticaII
 
         private void frmTratamentoDeEsgoto_Load(object sender, EventArgs e)
         {
+            pnJogo.Hide();
             atualizarTela();
             btnJogar.Hide();
         }
@@ -156,8 +157,8 @@ namespace ProjetoPraticaII
                     lbTitulo.Text = "Tratamento de esgoto";
                     lbTexto.Height = 143;
                     lbTexto.Text = "     - O jogo\n" +
-                                   "         Para jogar é preciso passar por todas as fazes do tratamento de esgoto conforme você aprendeu." +
-                                   "" +
+                                   "         Para jogar é preciso passar por todas as fazes do tratamento de esgoto conforme você aprendeu. " +
+                                   "Você terá 3 opções e deve escolher qual delas é o elemento que falta para completar aquela fase do tratamento." +
                                    "";
                     pbImagem.BackgroundImage = Properties.Resources.aguaReciclavelPequena;
                     btnProx.Enabled = false;
@@ -173,6 +174,7 @@ namespace ProjetoPraticaII
         private void btnJogar_Click(object sender, EventArgs e)
         {
             pnIntroducao.Hide();
+            pnJogo.Show();
             timer.Interval = 1000;
             timer.Start();
         }
@@ -251,7 +253,7 @@ namespace ProjetoPraticaII
                         gif = 0;
                     else
                         gif++;
-                 break;
+                break;
 
                 case 3:
                     pbItem1.BackgroundImage = Properties.Resources.planta;
@@ -299,10 +301,30 @@ namespace ProjetoPraticaII
                         gif = 0;
                     else
                         gif++;
-                 break;
+                break;
 
-                default:
-                    Console.WriteLine("Default case");
+                case 5:
+                    pbItem1.BackgroundImage = Properties.Resources.candidaPequena;
+                    pbItem2.BackgroundImage = Properties.Resources.ampulheta;
+                    pbItem3.BackgroundImage = Properties.Resources.bactéria;
+                    switch (gif)
+                    {
+                        case 0:
+                            pbMain.BackgroundImage = Properties.Resources.terciario1_0;
+                            break;
+
+                        case 1:
+                            pbMain.BackgroundImage = Properties.Resources.terciario1_1;
+                            break;
+
+                        case 2:
+                            pbMain.BackgroundImage = Properties.Resources.terciario1_2;
+                            break;
+                    }
+                    if (gif == 2)
+                        gif = 0;
+                    else
+                        gif++;
                 break;
             }
         }
@@ -314,10 +336,12 @@ namespace ProjetoPraticaII
                 case 0:
                     if (item == 1)
                     {
+                        timer.Stop();
                         gif = 0;
                         pbMain.BackgroundImage = Properties.Resources.entradaEsgotoFinal;
                         MessageBox.Show("parabéns");
                         nivel++;
+                        timer.Start();
                     }            
                     else
                         MessageBox.Show("too bad");
@@ -326,10 +350,12 @@ namespace ProjetoPraticaII
                 case 1:
                     if (item == 3)
                     {
+                        timer.Stop();
                         gif = 0;
                         pbMain.BackgroundImage = Properties.Resources.arenacaoFinal;
                         MessageBox.Show("parabéns");
                         nivel++;
+                        timer.Start();
                     }
                     else
                         MessageBox.Show("too bad");
@@ -338,11 +364,12 @@ namespace ProjetoPraticaII
                 case 2:
                     if (item == 3)
                     {
-
+                        timer.Stop();
                         gif = 0;
                         pbMain.BackgroundImage = Properties.Resources.caixaDeGorduraFinal;
                         MessageBox.Show("parabéns");
                         nivel++;
+                        timer.Start();
                     }
                     else
                         MessageBox.Show("too bad");
@@ -351,11 +378,12 @@ namespace ProjetoPraticaII
                 case 3:
                     if (item == 2)
                     {
-
+                        timer.Stop();
                         gif = 0;
                         pbMain.BackgroundImage = Properties.Resources.biodigestorFinal;
                         MessageBox.Show("parabéns");
                         nivel++;
+                        timer.Start();
                     }
                     else
                         MessageBox.Show("too bad");
@@ -364,11 +392,29 @@ namespace ProjetoPraticaII
                 case 4:
                     if (item == 2)
                     {
-
+                        timer.Stop();
                         gif = 0;
                         pbMain.BackgroundImage = Properties.Resources.biofiltroFinal;
                         MessageBox.Show("parabéns");
                         nivel++;
+                        timer.Start();
+                    }
+                    else
+                        MessageBox.Show("too bad");
+                break;
+
+                case 5:
+                    if (item == 1)
+                    {
+                        timer.Stop();
+                        gif = 0;
+                        pbMain.BackgroundImage = Properties.Resources.terciarioFinal;
+                        MessageBox.Show("parabéns");
+                        nivel++;
+                        pbMain.BackgroundImage = Properties.Resources.Final;
+                        pbItem1.BackgroundImage = null;
+                        pbItem2.BackgroundImage = Properties.Resources.close;
+                        pbItem3.BackgroundImage = null;
                     }
                     else
                         MessageBox.Show("too bad");
@@ -383,6 +429,8 @@ namespace ProjetoPraticaII
 
         private void pbItem2_Click(object sender, EventArgs e)
         {
+            if (nivel == 6)
+                this.Close();
             aux(2);
         }
 
