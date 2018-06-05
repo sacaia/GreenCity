@@ -355,5 +355,14 @@
   <ItemGroup>
     <None Include="Resources\close.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comidaInseticida.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantacaoInseticida.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundo_fazenda.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

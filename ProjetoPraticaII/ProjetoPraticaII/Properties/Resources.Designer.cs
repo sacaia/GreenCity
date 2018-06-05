@@ -363,6 +363,16 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap comidaInseticida {
+            get {
+                object obj = ResourceManager.GetObject("comidaInseticida", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap decantaçãoPequeno {
             get {
                 object obj = ResourceManager.GetObject("decantaçãoPequeno", resourceCulture);
@@ -493,6 +503,16 @@ namespace ProjetoPraticaII.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fundo_fazenda {
+            get {
+                object obj = ResourceManager.GetObject("fundo_fazenda", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gradePequena {
             get {
                 object obj = ResourceManager.GetObject("gradePequena", resourceCulture);
@@ -546,6 +566,16 @@ namespace ProjetoPraticaII.Properties {
         internal static System.Drawing.Bitmap planta {
             get {
                 object obj = ResourceManager.GetObject("planta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap plantacaoInseticida {
+            get {
+                object obj = ResourceManager.GetObject("plantacaoInseticida", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

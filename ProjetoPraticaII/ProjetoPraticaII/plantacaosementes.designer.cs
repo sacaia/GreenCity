@@ -107,6 +107,7 @@
             // lb_sementeescolhida
             // 
             this.lb_sementeescolhida.AutoSize = true;
+            this.lb_sementeescolhida.BackColor = System.Drawing.Color.Transparent;
             this.lb_sementeescolhida.Location = new System.Drawing.Point(672, 436);
             this.lb_sementeescolhida.Name = "lb_sementeescolhida";
             this.lb_sementeescolhida.Size = new System.Drawing.Size(101, 13);
@@ -124,6 +125,7 @@
             // 
             // panelMenu
             // 
+            this.panelMenu.BackColor = System.Drawing.Color.DarkGreen;
             this.panelMenu.Controls.Add(this.pictureBox4);
             this.panelMenu.Controls.Add(this.pictureBox2);
             this.panelMenu.Controls.Add(this.pb_adubo);
@@ -206,7 +208,7 @@
             this.panel_explicacao.Controls.Add(this.brn_explicacaoProximo);
             this.panel_explicacao.Location = new System.Drawing.Point(1, 2);
             this.panel_explicacao.Name = "panel_explicacao";
-            this.panel_explicacao.Size = new System.Drawing.Size(821, 584);
+            this.panel_explicacao.Size = new System.Drawing.Size(820, 584);
             this.panel_explicacao.TabIndex = 18;
             // 
             // lb_explicacaoTitulo
@@ -257,6 +259,7 @@
             this.btn_explicacaoJogar.TabIndex = 2;
             this.btn_explicacaoJogar.Text = "Jogar";
             this.btn_explicacaoJogar.UseVisualStyleBackColor = true;
+            this.btn_explicacaoJogar.Click += new System.EventHandler(this.btn_explicacaoJogar_Click);
             // 
             // btn_explicacoVoltar
             // 
@@ -267,6 +270,7 @@
             this.btn_explicacoVoltar.TabIndex = 1;
             this.btn_explicacoVoltar.Text = "Voltar";
             this.btn_explicacoVoltar.UseVisualStyleBackColor = true;
+            this.btn_explicacoVoltar.Click += new System.EventHandler(this.btn_explicacoVoltar_Click);
             // 
             // brn_explicacaoProximo
             // 
@@ -317,6 +321,7 @@
             this.btn_historia.Size = new System.Drawing.Size(31, 30);
             this.btn_historia.TabIndex = 11;
             this.btn_historia.UseVisualStyleBackColor = true;
+            this.btn_historia.Click += new System.EventHandler(this.btn_historia_Click);
             // 
             // pb_botaomenu
             // 
@@ -353,6 +358,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackgroundImage = global::ProjetoPraticaII.Properties.Resources.fundo_fazenda;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(821, 589);
             this.Controls.Add(this.panel_explicacao);
             this.Controls.Add(this.pb_4);

@@ -7,12 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace fazenda
 {
 
     public partial class frmPlantacaoSementes : Form
     {
+        string cs =  ProjetoPraticaII.Properties.Settings.Default.BDPRII17189ConnectionString; // String de conexao
         frmMenuFazenda frmMenu1;
         int tempo = 0;
         int idade = 0;
@@ -255,7 +257,36 @@ namespace fazenda
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
+            SqlConnection con = new SqlConnection();
+            cs = cs.Substring(cs.IndexOf("Data Source"));
+            con.ConnectionString = cs;
 
+            // verifica os parametros passados pelo usuario no formulario
+            string cmd_s = "insert into planta values('milho',)";
+            SqlCommand cmd = new SqlCommand(cmd_s, con);
+
+            // @nome = nome escolhido pelo usuario
+            cmd.Parameters.AddWithValue("@nome", txbNome.Text);
+
+            // @senha = senha escolhida pelo usuario
+            cmd.Parameters.AddWithValue("@senha", Encriptador.Encrypt(txbSenha.Text));
+
+            con.Open();
+
+            SqlDataAdapter adapt = new SqlDataAdapter(cmd);
+            DataSet ds = new DataSet();
+
+            adapt.Fill(ds);
+            con.Close();
+
+            if (ds.Tables[0].Rows.Count == 1)
+            {
+                // existe o usuario com essa senha
+                frmPrincipal frmP = new frmPrincipal();
+                this.Hide();
+                // frmP.FormClosed += (s, arg) => this.Show();
+                frmP.Show();
+            }
         }
 
         private void pb_botaomenu_MouseEnter(object sender, EventArgs e)
@@ -310,11 +341,49 @@ namespace fazenda
         private void brn_explicacaoProximo_Click(object sender, EventArgs e)
         {
             paginaAtual++;
-            btn_explicacoVoltar.Enabled = true;
-            lb_explicacao.Text = "De maneira geral, o uso de fertilizantes inorgânicos acarreta problemas para o meio ambiente, dentre eles a contaminação de lençóis freáticos, rios e lagos. Muitos fertilizantes inorgânicos levam poluentes orgânicos persistentes , que contaminam os animais e plantas que vivem na água. Outros animais ou o próprio ser humano podem se contaminar ao beber a água ou comer animais intoxicados      A contaminação da água também pode levar à sua eutrofização. Esse é um processo em que, segundo estudos, os compostos, ao chegarem à rios, lagos e zonas costeiras favorecem o crescimento e o aumento de número de algas, que por sua vez levam à morte diversos organismos. Alguns ambientalistas afirmam que esse processo gera 'zonas mortas' nos ambientes aquáticos, sem qualquer tipo de vida além das algas.";
+            if (paginaAtual == 2)
+            {
+                btn_explicacoVoltar.Enabled = true;
+                lb_explicacao.Text = "De maneira geral, os pesticidas são tóxicos, independentemente de qual composto é usado, sendo uns menos, e outros mais danosos à saúde humana e ao meio ambiente. Um dos problemas mais comuns é a contaminação do solo, de lençóis freáticos e de rios e lagos. Quando o agrotóxico é utilizado, ele chega ao solo e a chuva, ou o próprio sistema de irrigação da plantação, facilita a chegada dos pesticidas aos corpos de água, poluindo-os e intoxicando toda vida lá presente. Um bom exemplo de como esse tipo de produto tóxico funciona pode ser observado em inseticidas, como os organocloradose organofosforados. Ambos sãobioacumulativos, o que significa que o composto permanece no corpo do inseto ou de um peixe após sua morte.Se algum outro animal se alimentar de um ser contaminado, também ficará intoxicado, e assim sucessivamente, aumentando o alcance do problema. O uso de pesticidas, inclusive, contribui com o empobrecimento do solo.Estudosmostram que a utilização de pesticidas reduz a eficiência da fixação de nitrogênio realizada por micro - organismos, o que faz com que o uso defertilizantes seja cada vez mais necessário.";
+                pb_explicacao.Image = ProjetoPraticaII.Properties.Resources.comidaInseticida;
+                pb_explicacao2.Image = ProjetoPraticaII.Properties.Resources.plantacaoInseticida;
+                lb_explicacaoTitulo.Text = "Problemas com o uso de inseticidas";
+                btn_explicacaoJogar.Enabled = true;
+            }
+        }
 
+        private void btn_explicacaoJogar_Click(object sender, EventArgs e)
+        {
+            panel_explicacao.Hide();
+            hint_plantacao.SetToolTip(pictureBox3, "Esta terra está bloqueada ,para desbloquear ,compre no mercado");
+            hint_plantacao.SetToolTip(pictureBox5, "Esta terra está bloqueada ,para desbloquear ,compre no mercado");
+            hint_plantacao.SetToolTip(pictureBox6, "Esta terra está bloqueada ,para desbloquear ,compre no mercado");
 
         }
 
+        private void btn_historia_Click(object sender, EventArgs e)
+        {
+            lb_explicacao.Text = "De maneira geral, o uso de fertilizantes inorgânicos acarreta problemas para o meio ambiente, dentre eles a contaminação de lençóis freáticos, rios e lagos. Muitos fertilizantes inorgânicos levam poluentes orgânicos persistentes , que contaminam os animais e plantas que vivem na água. Outros animais ou o próprio ser humano podem se contaminar ao beber a água ou comer animais intoxicados      A contaminação da água também pode levar à sua eutrofização. Esse é um processo em que, segundo estudos, os compostos, ao chegarem à rios, lagos e zonas costeiras favorecem o crescimento e o aumento de número de algas, que por sua vez levam à morte diversos organismos. Alguns ambientalistas afirmam que esse processo gera 'zonas mortas' nos ambientes aquáticos, sem qualquer tipo de vida além das algas.";
+            pb_explicacao.Image = ProjetoPraticaII.Properties.Resources.aduboQuimico;
+            pb_explicacao2.Image = ProjetoPraticaII.Properties.Resources.baciaHidrografica;
+            paginaAtual = 1;
+            btn_explicacoVoltar.Enabled = false;
+            btn_explicacaoJogar.Enabled = false;
+            panel_explicacao.Show();
+        }
+
+        private void btn_explicacoVoltar_Click(object sender, EventArgs e)
+        {
+            if (paginaAtual == 2)
+            {
+                paginaAtual--;
+                lb_explicacao.Text = "De maneira geral, o uso de fertilizantes inorgânicos acarreta problemas para o meio ambiente, dentre eles a contaminação de lençóis freáticos, rios e lagos. Muitos fertilizantes inorgânicos levam poluentes orgânicos persistentes , que contaminam os animais e plantas que vivem na água. Outros animais ou o próprio ser humano podem se contaminar ao beber a água ou comer animais intoxicados      A contaminação da água também pode levar à sua eutrofização. Esse é um processo em que, segundo estudos, os compostos, ao chegarem à rios, lagos e zonas costeiras favorecem o crescimento e o aumento de número de algas, que por sua vez levam à morte diversos organismos. Alguns ambientalistas afirmam que esse processo gera 'zonas mortas' nos ambientes aquáticos, sem qualquer tipo de vida além das algas.";
+                pb_explicacao.Image = ProjetoPraticaII.Properties.Resources.aduboQuimico;
+                pb_explicacao2.Image = ProjetoPraticaII.Properties.Resources.baciaHidrografica;
+                paginaAtual = 1;
+                btn_explicacoVoltar.Enabled = false;
+                btn_explicacaoJogar.Enabled = false;
+            }
+        }
     }
 }
