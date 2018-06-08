@@ -250,44 +250,9 @@ namespace fazenda
             }
         }
 
-        private void btn_silo_Click(object sender, EventArgs e)
-        {
+      
 
-        }
-
-        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            SqlConnection con = new SqlConnection();
-            cs = cs.Substring(cs.IndexOf("Data Source"));
-            con.ConnectionString = cs;
-
-            // verifica os parametros passados pelo usuario no formulario
-            string cmd_s = "insert into planta values('milho',)";
-            SqlCommand cmd = new SqlCommand(cmd_s, con);
-
-            // @nome = nome escolhido pelo usuario
-            cmd.Parameters.AddWithValue("@nome", txbNome.Text);
-
-            // @senha = senha escolhida pelo usuario
-            cmd.Parameters.AddWithValue("@senha", Encriptador.Encrypt(txbSenha.Text));
-
-            con.Open();
-
-            SqlDataAdapter adapt = new SqlDataAdapter(cmd);
-            DataSet ds = new DataSet();
-
-            adapt.Fill(ds);
-            con.Close();
-
-            if (ds.Tables[0].Rows.Count == 1)
-            {
-                // existe o usuario com essa senha
-                frmPrincipal frmP = new frmPrincipal();
-                this.Hide();
-                // frmP.FormClosed += (s, arg) => this.Show();
-                frmP.Show();
-            }
-        }
+      
 
         private void pb_botaomenu_MouseEnter(object sender, EventArgs e)
         {

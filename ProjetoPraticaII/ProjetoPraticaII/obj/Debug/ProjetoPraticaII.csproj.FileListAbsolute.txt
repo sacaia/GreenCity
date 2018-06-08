@@ -32,7 +32,6 @@ C:\Users\u17176\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPratica
 C:\Users\u17176\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.frmPrincipal.resources
 C:\Users\u17176\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.frmMenuFazenda.resources
 C:\Users\u17176\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.Form2.resources
-C:\Users\u17176\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.plantacaosementes.resources
 C:\Users\u17176\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.Silo.resources
 C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\bin\Debug\ProjetoPraticaII.exe.config
 C:\Users\Lucas R\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\bin\Debug\ProjetoPraticaII.exe
@@ -159,3 +158,4 @@ F:\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.csproj.GenerateR
 F:\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.csproj.CoreCompileInputs.cache
 F:\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.exe
 F:\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\ProjetoPraticaII.pdb
+C:\Users\u17176\Documents\GitHub\projetoPratica2\ProjetoPraticaII\ProjetoPraticaII\obj\Debug\fazenda.frmPlantacaoSementes.resources
