@@ -45,5 +45,13 @@ namespace ProjetoPraticaII
             frmEsgoto.Show();
             this.Hide();
         }
+
+        private void btnEnergia_Click(object sender, EventArgs e)
+        {
+            frmEnergia frmEnergia = new frmEnergia();
+            frmEnergia.FormClosed += (s, arg) => this.Show();
+            frmEnergia.Show();
+            this.Hide();
+        }
     }
 }
