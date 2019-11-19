@@ -1,2 +1,2 @@
-# projetoPratica2
-um jogo educativo (ecologico no caso) para crianças de 8 a 12 anos
+# GreenCity
+An ecologic educational game for children around 8 to 12 years :city_sunrise::deciduous_tree:
